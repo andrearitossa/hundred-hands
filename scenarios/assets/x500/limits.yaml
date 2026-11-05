@@ -1,0 +1,6 @@
+# Derivation: README.md in this directory.
+mass: 2.064        # kg
+v_max: 15.0        # m/s, horizontal
+vz_max: 5.0        # m/s
+a_max: 8.0         # m/s^2, horizontal
+az_max: 4.0        # m/s^2, vertical

@@ -1,0 +1,5 @@
+pybind11_add_module(swarmsim swarmsim.cpp)
+target_link_libraries(swarmsim PRIVATE runtime)
+set_target_properties(swarmsim PROPERTIES INSTALL_RPATH "$ORIGIN")
+install(TARGETS swarmsim DESTINATION .)
+install(FILES ${mujoco_bin_SOURCE_DIR}/lib/libmujoco.so.3.17.0 DESTINATION .)

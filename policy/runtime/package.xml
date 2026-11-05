@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>runtime</name>
+  <version>0.0.1</version>
+  <description>Hundred Hands v0 runtime C++ package.</description>
+  <maintainer email="maintainers@example.invalid">Hundred Hands contributors</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>cmake</buildtool_depend>
+  <depend>gnc</depend>
+  <export><build_type>cmake</build_type></export>
+</package>

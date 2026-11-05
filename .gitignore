@@ -1,0 +1,24 @@
+build/
+.venv/
+__pycache__/
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+wandb/
+_skbuild/
+experiments/**/.cache/
+experiments/**/.config/
+experiments/**/.data/
+*.onnx.data
+
+# The active long-budget run stays local; commit explicit progress snapshots.
+experiments/2026-11-04_m4-spec-scale/*
+!experiments/2026-11-04_m4-spec-scale/README.md
+!experiments/2026-11-04_m4-spec-scale/train.yaml
+!experiments/2026-11-04_m4-spec-scale/config.yaml
+!experiments/2026-11-04_m4-spec-scale/launch-meta.json
+!experiments/2026-11-04_m4-spec-scale/progress-snapshot.jsonl
+!experiments/2026-11-04_m4-spec-scale/profile.log
+!experiments/2026-11-04_m4-spec-scale/jit-profile.log
+!experiments/2026-11-04_m4-spec-scale/compile-profile.log

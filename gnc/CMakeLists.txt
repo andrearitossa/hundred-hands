@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.24)
+if(CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR AND NOT SWARM_IN_SUPERBUILD)
+  set(SWARM_SELECTED_PACKAGE gnc)
+  include("${CMAKE_CURRENT_LIST_DIR}/../cmake/Standalone.cmake")
+  return()
+endif()
+find_package(Threads REQUIRED)
+swarm_package(gnc DEPS perception Threads::Threads)

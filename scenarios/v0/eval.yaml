@@ -1,0 +1,44 @@
+env: scenarios/v0/env.yaml
+seed: 10000000
+episodes: 1000
+wandb_mode: offline
+policies:
+- idle
+- random
+- pp_greedy
+- pn_greedy
+- pp_hungarian
+- pn_hungarian
+conditions:
+- red: 3
+  behaviour: straight
+- red: 3
+  behaviour: waypoint
+- red: 3
+  behaviour: evasive
+- red: 3
+  behaviour: mixed
+- red: 4
+  behaviour: straight
+- red: 4
+  behaviour: waypoint
+- red: 4
+  behaviour: evasive
+- red: 4
+  behaviour: mixed
+- red: 5
+  behaviour: straight
+- red: 5
+  behaviour: waypoint
+- red: 5
+  behaviour: evasive
+- red: 5
+  behaviour: mixed
+- red: 6
+  behaviour: straight
+- red: 6
+  behaviour: waypoint
+- red: 6
+  behaviour: evasive
+- red: 6
+  behaviour: mixed

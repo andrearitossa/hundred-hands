@@ -1,0 +1,28 @@
+name: v0
+on: [push, pull_request]
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.11", "3.12"]
+    env:
+      UV_CACHE_DIR: /tmp/swarm-uv
+      MPLCONFIGDIR: /tmp/swarm-mpl
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: uv sync --locked
+      - run: cmake --preset release && cmake --build --preset release -j 2
+      - run: ctest --preset release
+      - run: uv run pytest -q
+      - run: uv run mypy && uv run ruff check policy/swarm_policy eval/swarm_eval tests
+      - run: uv run python tools/codegen/generate.py --check && uv run python tools/check_dependencies.py
+      - run: uv run swarm-walkthrough --out /tmp/swarm-walkthrough --steps 2048 --episodes 2
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: walkthrough-${{ matrix.python }}
+          path: /tmp/swarm-walkthrough

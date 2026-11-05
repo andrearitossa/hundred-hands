@@ -1,0 +1,28 @@
+# Single source of truth for observation-graph features. Run tools/codegen/generate.py after editing.
+schema_version: 1
+normalisation: {pos: 1000.0, time: 10.0}   # velocities are divided by limits.v_max
+kinds:
+  self:
+    - {name: vel, dim: 3, norm: vel}
+    - {name: altitude, dim: 1, norm: pos}
+    - {name: asset_vec, dim: 3, norm: pos}
+    - {name: asset_dist, dim: 1, norm: pos}
+    - {name: g, dim: 1, norm: none}
+  local_threat: &threat
+    - {name: rel_pos, dim: 3, norm: pos}
+    - {name: rel_vel, dim: 3, norm: vel}
+    - {name: dist, dim: 1, norm: pos}
+    - {name: closing, dim: 1, norm: vel}
+    - {name: asset_dist, dim: 1, norm: pos}
+    - {name: asset_speed, dim: 1, norm: vel}
+    - {name: age, dim: 1, norm: time}
+    - {name: since_update, dim: 1, norm: time}
+  asset:
+    - {name: rel_pos, dim: 3, norm: pos}
+    - {name: dist, dim: 1, norm: pos}
+  global_threat: *threat
+  teammate:
+    - {name: rel_pos, dim: 3, norm: pos}
+    - {name: rel_vel, dim: 3, norm: vel}
+    - {name: dist, dim: 1, norm: pos}
+    - {name: asset_dist, dim: 1, norm: pos}

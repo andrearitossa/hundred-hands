@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>__TITLE__</title>
+<style>
+:root{--bg:#f7f7f4;--fg:#22241f;--mut:#6c7067;--line:#d9dad3;--bld:#c7c8bf;--blue:#2166c4;--red:#c8372d;--asset:#2a8a57}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#17181a;--fg:#e8e8e3;--mut:#9a9d94;--line:#35373a;--bld:#46484c;--blue:#6aa5f2;--red:#ef6f64;--asset:#54c48a}}
+:root[data-theme=dark]{--bg:#17181a;--fg:#e8e8e3;--mut:#9a9d94;--line:#35373a;--bld:#46484c;--blue:#6aa5f2;--red:#ef6f64;--asset:#54c48a}
+body{margin:0;padding:16px;background:var(--bg);color:var(--fg);font:14px/1.45 system-ui,sans-serif}
+main{max-width:1000px;margin:auto}h1{font-size:18px;margin:0 0 10px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:8px 0}
+.view{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:14px}@media(max-width:760px){.view{grid-template-columns:1fr}}
+canvas{width:100%;aspect-ratio:1;border:1px solid var(--line);border-radius:6px;display:block}
+#log{max-height:560px;overflow:auto;font:12px/1.5 ui-monospace,monospace;border:1px solid var(--line);border-radius:6px;padding:8px}
+#log div.past{color:var(--mut)}input[type=range]{flex:1;min-width:140px}select,button{font:inherit;color:inherit;background:transparent;border:1px solid var(--line);border-radius:5px;padding:4px 10px}
+#info{color:var(--mut);font-variant-numeric:tabular-nums}
+</style></head><body><main><h1>__TITLE__</h1>
+<div class="row"><select id="ep" aria-label="Episode"></select><button id="play">Play</button><input id="t" type="range" min="0" value="0" aria-label="Time"><select id="sp" aria-label="Speed"><option>5</option><option selected>20</option><option>60</option></select><span>× speed</span></div>
+<div class="row" id="info"></div><details><summary>Decision data (Q, attention, message/global influence)</summary><pre id="decision" style="overflow:auto;max-height:300px"></pre></details>
+<div class="view"><canvas id="c" width="1000" height="1000"></canvas><div id="log"></div></div></main>
+<script>
+const D=__DATA__,$=i=>document.getElementById(i),ctx=$('c').getContext('2d');let E,i=0,on=false,last=0,clock=0;
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n);
+D.forEach((e,k)=>$('ep').add(new Option(`seed ${e.seed}: ${e.assetHit?'asset hit':'asset intact'}, ${e.events.filter(v=>v.kind=='lost').length} lost`,k)));
+function load(k){E=D[k];i=0;clock=0;$('t').max=E.t.length-1;draw();$('log').innerHTML=E.events.map(e=>`<div data-t="${e.t}">${e.t.toFixed(1)}s ${e.kind} ${e.drone<0?'':(e.drone<E.nBlue?'B':'R')+(e.drone<E.nBlue?e.drone:e.drone-E.nBlue)} ${e.cause=='none'?'':e.cause}</div>`).join('')}
+function draw(){const W=1000,S=x=>(x+500)/1000*W,Y=y=>W-(y+500)/1000*W;ctx.clearRect(0,0,W,W);
+ctx.fillStyle=css('--bld');E.buildings.forEach(b=>ctx.fillRect(S(b[0]-b[3]),Y(b[1]+b[4]),b[3]*2,b[4]*2));
+ctx.strokeStyle=css('--asset');ctx.fillStyle=css('--asset');ctx.lineWidth=2;ctx.beginPath();ctx.arc(S(E.asset[0]),Y(E.asset[1]),10,0,7);ctx.fill();
+ctx.setLineDash([8,8]);ctx.strokeStyle=css('--mut');ctx.lineWidth=1.5;E.routes.forEach((r,k)=>{if(!r.length)return;const a=E.pos[0][E.nBlue+k];ctx.beginPath();ctx.moveTo(S(a[0]),Y(a[1]));r.forEach(p=>ctx.lineTo(S(p[0]),Y(p[1])));ctx.lineTo(S(E.asset[0]),Y(E.asset[1]));ctx.stroke()});ctx.setLineDash([]);
+const n=E.pos[0].length;for(let d=0;d<n;d++){const col=d<E.nBlue?css('--blue'):css('--red');ctx.strokeStyle=col;ctx.fillStyle=col;ctx.globalAlpha=.45;ctx.lineWidth=1.5;ctx.beginPath();let pen=false;
+for(let k=0;k<=i;k++){if(E.status[k][d]==1){const p=E.pos[k][d];pen?ctx.lineTo(S(p[0]),Y(p[1])):ctx.moveTo(S(p[0]),Y(p[1]));pen=true}}ctx.stroke();ctx.globalAlpha=1;
+const st=E.status[i][d],p=E.pos[i][d];if(st==1){ctx.beginPath();ctx.arc(S(p[0]),Y(p[1]),6,0,7);ctx.fill();ctx.font='18px system-ui';ctx.fillText((d<E.nBlue?'B'+d:'R'+(d-E.nBlue))+' z'+Math.round(p[2]),S(p[0])+9,Y(p[1])-7)}}
+const L=E.decisions?.[Math.min(i,E.decisions.length-1)];
+if(L){const g=L.graph,A=L.decision;for(const [kind,own,attention,color] of [['global_threat','global_owner','attention_global','#f29422'],['local_threat','local_owner','attention_local','#1bafbe']]){
+(g[kind]||[]).forEach((node,k)=>{const a=g[own][k],d=g.agent_drone[a],p=E.pos[i][d],psi=L.headings[a],w=A[attention][k].reduce((s,x)=>s+x,0)/A[attention][k].length;
+ctx.strokeStyle=color;ctx.globalAlpha=Math.max(.1,w);ctx.lineWidth=1+4*w;ctx.beginPath();ctx.moveTo(S(p[0]),Y(p[1]));ctx.lineTo(S(p[0]+1000*(node[0]*Math.cos(psi)-node[1]*Math.sin(psi))),Y(p[1]+1000*(node[0]*Math.sin(psi)+node[1]*Math.cos(psi))));ctx.stroke()});}
+(g.teammate_owner||[]).forEach((a,k)=>{const b=g.teammate_src[k],p=E.pos[i][g.agent_drone[a]],q=E.pos[i][g.agent_drone[b]];ctx.globalAlpha=.5;ctx.strokeStyle='#a45ac9';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(S(p[0]),Y(p[1]));ctx.lineTo(S(q[0]),Y(q[1]));ctx.stroke()});ctx.globalAlpha=1;
+$('decision').textContent=JSON.stringify(A,null,2);}else $('decision').textContent='No policy decision data in this episode';
+const t=E.t[i];E.events.filter(e=>e.t<=t&&(e.kind=='lost'||e.kind=='intercept')).forEach(e=>{const x=S(e.pos[0]),y=Y(e.pos[1]);ctx.strokeStyle=e.kind=='lost'?css('--fg'):css('--asset');ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(x-9,y-9);ctx.lineTo(x+9,y+9);ctx.moveTo(x+9,y-9);ctx.lineTo(x-9,y+9);ctx.stroke()});$('t').value=i;$('info').textContent=`t=${t.toFixed(1)}s / ${E.t.at(-1).toFixed(1)}s · intercepted ${E.intercepted} · red: ${E.behaviour.join(', ')}`;
+document.querySelectorAll('#log div').forEach(x=>x.className=+x.dataset.t<=t?'past':'')}
+function tick(n){if(on){clock+=(n-last)/1000*+$('sp').value;while(i<E.t.length-1&&E.t[i+1]<=clock)i++;draw();if(i>=E.t.length-1){on=false;$('play').textContent='Play'}}last=n;requestAnimationFrame(tick)}
+$('ep').onchange=e=>{on=false;$('play').textContent='Play';load(+e.target.value)};$('t').oninput=e=>{i=+e.target.value;clock=E.t[i];draw()};$('play').onclick=()=>{if(i>=E.t.length-1){i=0;clock=0}on=!on;$('play').textContent=on?'Pause':'Play'};
+load(0);requestAnimationFrame(tick);
+</script></body></html>

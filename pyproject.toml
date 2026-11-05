@@ -1,0 +1,48 @@
+[project]
+name = "swarm-defence"
+version = "0.0.1"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+dependencies = ["numpy", "pyyaml", "matplotlib", "torch", "onnx", "onnxscript", "onnxruntime", "wandb", "mujoco==3.17.0"]
+
+[project.scripts]
+swarm-train = "swarm_policy.train:main"
+swarm-eval = "swarm_eval.evaluate:main"
+swarm-report = "swarm_eval.report:main"
+swarm-bench = "swarm_eval.bench:main"
+swarm-export = "swarm_policy.export:main"
+swarm-walkthrough = "swarm_eval.walkthrough:main"
+swarm-diag = "swarm_eval.diag:main"
+swarm-replay = "swarm_eval.replay:main"
+
+[dependency-groups]
+dev = ["pytest", "ruff", "mypy"]
+
+[build-system]
+requires = ["scikit-build-core>=0.10"]
+build-backend = "scikit_build_core.build"
+
+[tool.scikit-build]
+build-dir = "build/python"
+wheel.packages = ["eval/swarm_eval", "policy/swarm_policy"]
+cmake.define = {SWARM_TESTS = "OFF", SWARM_PYTHON = "ON"}
+ninja.make-fallback = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+extend-exclude = ["policy/swarm_policy/obs_layout.py"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.mypy]
+ignore_missing_imports = true
+files = ["policy/swarm_policy", "eval/swarm_eval"]

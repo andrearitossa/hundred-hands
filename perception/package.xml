@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>perception</name>
+  <version>0.0.1</version>
+  <description>Hundred Hands v0 perception C++ package.</description>
+  <maintainer email="maintainers@example.invalid">Hundred Hands contributors</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>cmake</buildtool_depend>
+  <depend>sim</depend>
+  <export><build_type>cmake</build_type></export>
+</package>
