@@ -1,0 +1,339 @@
+Using CPython 3.12.14
+Creating virtual environment at: .venv
+Resolved 81 packages in 1ms
+   Building swarm-defence @ file:///tmp/hundred-hands-v0-clean
+Downloading torch (199.8MiB)
+Downloading wandb (19.4MiB)
+Downloading ast-serialize (1.3MiB)
+Downloading pydantic-core (2.1MiB)
+Downloading onnxruntime (22.7MiB)
+Downloading mypy (14.8MiB)
+Downloading onnx (8.5MiB)
+Downloading mujoco (25.4MiB)
+ Downloaded ast-serialize
+ Downloaded pydantic-core
+ Downloaded onnx
+ Downloaded torch
+ Downloaded mypy
+ Downloaded wandb
+ Downloaded onnxruntime
+ Downloaded mujoco
+      Built swarm-defence @ file:///tmp/hundred-hands-v0-clean
+Prepared 38 packages in 1m 26s
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 76 packages in 14.52s
+ + absl-py==2.5.1
+ + annotated-types==0.8.0
+ + anyio==4.16.0
+ + ast-serialize==0.13.1
+ + certifi==2026.10.23
+ + charset-normalizer==3.5.2
+ + click==8.5.0
+ + contourpy==1.4.0
+ + cwevals==0.0.1b1
+ + cycler==0.12.1
+ + distro==1.9.0
+ + etils==1.15.0
+ + filelock==4.2.8
+ + flatbuffers==25.12.19
+ + fonttools==4.68.0
+ + fsspec==2026.9.0
+ + glfw==2.11.0
+ + googleapis-common-protos==1.76.0
+ + h11==0.16.0
+ + httpcore==1.0.9
+ + httpx==0.28.1
+ + idna==3.20
+ + iniconfig==2.3.1
+ + jinja2==3.1.6
+ + kiwisolver==1.5.1
+ + librt==0.16.0
+ + markupsafe==3.0.4
+ + matplotlib==3.11.2
+ + ml-dtypes==0.6.0
+ + mpmath==1.3.0
+ + mujoco==3.17.0
+ + mypy==2.4.1
+ + mypy-extensions==1.2.0
+ + networkx==3.7
+ + numpy==2.5.4
+ + onnx==1.23.2
+ + onnx-ir==1.1.0
+ + onnxruntime==1.31.1
+ + onnxscript==0.7.2
+ + opentelemetry-api==1.45.2
+ + opentelemetry-exporter-http-transport==0.66b2
+ + opentelemetry-exporter-otlp-common==0.66b2
+ + opentelemetry-exporter-otlp-proto-common==1.45.2
+ + opentelemetry-exporter-otlp-proto-http==1.45.2
+ + opentelemetry-proto==1.45.2
+ + opentelemetry-sdk==1.45.2
+ + opentelemetry-semantic-conventions==0.66b2
+ + packaging==26.3
+ + pathspec==1.1.1
+ + pillow==13.0.0
+ + platformdirs==4.14.4
+ + pluggy==1.7.0
+ + protobuf==7.36.2
+ + pydantic==2.14.2
+ + pydantic-core==2.50.2
+ + pygments==2.21.0
+ + pyopengl==3.1.10
+ + pyparsing==3.3.3
+ + pytest==9.2.0
+ + python-dateutil==4.0.0
+ + pyyaml==6.0.3
+ + requests==2.34.2
+ + ruff==0.17.3
+ + setuptools==84.2.1
+ + sniffio==1.3.1
+ + swarm-defence==0.0.1 (from file:///tmp/hundred-hands-v0-clean)
+ + sympy==1.14.0
+ + torch==2.15.0+cpu
+ + typing-extensions==4.16.0
+ + typing-inspection==0.4.5
+ + tzdata==2026.6
+ + urllib3==2.8.0
+ + wandb==0.31.0
+ + websockets==17.4
+ + xxhash==4.0.2
+ + zipp==4.1.2
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Configuring done (12.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/hundred-hands-v0-clean/build/release
+[0/2] Re-checking globbed directories...
+[1/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/binary.cpp for CXX dependencies
+[2/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/contrib/graphbuilder.cpp for CXX dependencies
+[3/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/contrib/graphbuilderadapter.cpp for CXX dependencies
+[4/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/depthguard.cpp for CXX dependencies
+[5/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/directives.cpp for CXX dependencies
+[6/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/convert.cpp for CXX dependencies
+[7/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/emit.cpp for CXX dependencies
+[8/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/emitterutils.cpp for CXX dependencies
+[9/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/emitterstate.cpp for CXX dependencies
+[10/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/emitter.cpp for CXX dependencies
+[11/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/emitfromevents.cpp for CXX dependencies
+[12/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/exceptions.cpp for CXX dependencies
+[13/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/exp.cpp for CXX dependencies
+[14/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/fptostring.cpp for CXX dependencies
+[15/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/memory.cpp for CXX dependencies
+[16/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/node.cpp for CXX dependencies
+[17/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/null.cpp for CXX dependencies
+[18/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/node_data.cpp for CXX dependencies
+[19/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/nodeevents.cpp for CXX dependencies
+[20/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/ostream_wrapper.cpp for CXX dependencies
+[21/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/nodebuilder.cpp for CXX dependencies
+[22/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/parser.cpp for CXX dependencies
+[23/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/regex_yaml.cpp for CXX dependencies
+[24/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/parse.cpp for CXX dependencies
+[25/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/scanner.cpp for CXX dependencies
+[26/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/scantag.cpp for CXX dependencies
+[27/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/scanscalar.cpp for CXX dependencies
+[28/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/simplekey.cpp for CXX dependencies
+[29/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/scantoken.cpp for CXX dependencies
+[30/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/stream.cpp for CXX dependencies
+[31/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/singledocparser.cpp for CXX dependencies
+[32/94] Scanning /tmp/hundred-hands-v0-clean/build/release/_deps/yaml_cpp-src/src/tag.cpp for CXX dependencies
+[33/94] Generating CXX dyndep file _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/CXX.dd
+[34/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
+[35/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
+[36/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
+[37/94] Building CXX object sim/CMakeFiles/sim.dir/src/scenario.cpp.o
+[38/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o
+[39/94] Building CXX object core/CMakeFiles/core.dir/src/config.cpp.o
+[40/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+[41/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
+[42/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
+[43/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
+[44/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
+[45/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
+[46/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o
+[47/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+[48/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
+[49/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/fptostring.cpp.o
+[50/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+[51/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
+[52/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
+[53/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
+[54/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+[55/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
+[56/94] Building CXX object sim/CMakeFiles/sim.dir/src/env.cpp.o
+[57/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
+[58/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
+[59/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o
+[60/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+[61/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+[62/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
+[63/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
+[64/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+[65/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
+[66/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
+[67/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
+[68/94] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+[69/94] Linking CXX static library _deps/yaml_cpp-build/libyaml-cpp.a
+[70/94] Linking CXX static library core/libcore.a
+[71/94] Linking CXX static library sim/libsim.a
+[72/94] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[73/94] Building CXX object gnc/CMakeFiles/gnc.dir/src/guidance.cpp.o
+[74/94] Building CXX object perception/CMakeFiles/perception.dir/src/perception.cpp.o
+[75/94] Linking CXX static library perception/libperception.a
+[76/94] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[77/94] Building CXX object gnc/CMakeFiles/gnc.dir/src/vec_env.cpp.o
+[78/94] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[79/94] Building CXX object gnc/CMakeFiles/gnc.dir/src/team_env.cpp.o
+[80/94] Linking CXX static library gnc/libgnc.a
+[81/94] Building CXX object perception/CMakeFiles/perception_tests.dir/tests/perception_test.cpp.o
+[82/94] Building CXX object sim/CMakeFiles/sim_tests.dir/tests/env_test.cpp.o
+[83/94] Building CXX object gnc/CMakeFiles/gnc_tests.dir/tests/gnc_test.cpp.o
+[84/94] Building CXX object policy/runtime/CMakeFiles/runtime.dir/src/runtime.cpp.o
+[85/94] Linking CXX static library policy/runtime/libruntime.a
+[86/94] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[87/94] Linking CXX static library lib/libgtest.a
+[88/94] Linking CXX static library lib/libgtest_main.a
+[89/94] Linking CXX static library lib/libgmock.a
+[90/94] Linking CXX static library lib/libgmock_main.a
+[91/94] Linking CXX executable perception/perception_tests
+[92/94] Linking CXX executable gnc/gnc_tests
+[93/94] Linking CXX executable sim/sim_tests
+Test project /tmp/hundred-hands-v0-clean/build/release
+      Start  1: Limits.RespectsSpeedAndAccel
+ 1/28 Test  #1: Limits.RespectsSpeedAndAccel ......................   Passed    0.01 sec
+      Start  2: Limits.HoverHoldsAltitude
+ 2/28 Test  #2: Limits.HoverHoldsAltitude .........................   Passed    0.01 sec
+      Start  3: Contacts.Ground
+ 3/28 Test  #3: Contacts.Ground ...................................   Passed    0.01 sec
+      Start  4: Contacts.Building
+ 4/28 Test  #4: Contacts.Building .................................   Passed    0.01 sec
+      Start  5: Contacts.LeavesArea
+ 5/28 Test  #5: Contacts.LeavesArea ...............................   Passed    0.00 sec
+      Start  6: Contacts.TeammatesRemoveEachOther
+ 6/28 Test  #6: Contacts.TeammatesRemoveEachOther .................   Passed    0.01 sec
+      Start  7: Contacts.RedCrashResolvesWithoutIntercept
+ 7/28 Test  #7: Contacts.RedCrashResolvesWithoutIntercept .........   Passed    0.01 sec
+      Start  8: Intercept.RateMatchesPnAndOnePerEntry
+ 8/28 Test  #8: Intercept.RateMatchesPnAndOnePerEntry .............   Passed   13.23 sec
+      Start  9: Asset.HitRadiusEndsEpisode
+ 9/28 Test  #9: Asset.HitRadiusEndsEpisode ........................   Passed    0.01 sec
+      Start 10: Scenario.RespectsPlacementConstraints
+10/28 Test #10: Scenario.RespectsPlacementConstraints .............   Passed    0.00 sec
+      Start 11: Red.EvasiveJinksRespectCooldown
+11/28 Test #11: Red.EvasiveJinksRespectCooldown ...................   Passed    0.03 sec
+      Start 12: Red.WaypointSegmentsClearOfBuildings
+12/28 Test #12: Red.WaypointSegmentsClearOfBuildings ..............   Passed    0.23 sec
+      Start 13: Red.SampledDirectApproachesClearAtEveryAltitude
+13/28 Test #13: Red.SampledDirectApproachesClearAtEveryAltitude ...   Passed    0.00 sec
+      Start 14: Control.FirstOrderStepResponse
+14/28 Test #14: Control.FirstOrderStepResponse ....................   Passed    0.00 sec
+      Start 15: Tracker.ReproducesConstantVelocity
+15/28 Test #15: Tracker.ReproducesConstantVelocity ................   Passed    0.00 sec
+      Start 16: Tracker.CoastsThenDrops
+16/28 Test #16: Tracker.CoastsThenDrops ...........................   Passed    0.00 sec
+      Start 17: Tracker.KeepsCrossingTargetsSeparate
+17/28 Test #17: Tracker.KeepsCrossingTargetsSeparate ..............   Passed    0.00 sec
+      Start 18: Fusion.MergesDuplicatesOnly
+18/28 Test #18: Fusion.MergesDuplicatesOnly .......................   Passed    0.00 sec
+      Start 19: Graph.EgoFrameAndUncappedCounts
+19/28 Test #19: Graph.EgoFrameAndUncappedCounts ...................   Passed    0.00 sec
+      Start 20: Graph.NoGlobalNodesWhenViewUnavailable
+20/28 Test #20: Graph.NoGlobalNodesWhenViewUnavailable ............   Passed    0.00 sec
+      Start 21: GNC.ControllerAndPrimitives
+21/28 Test #21: GNC.ControllerAndPrimitives .......................   Passed    0.00 sec
+      Start 22: GNC.HungarianBruteForce
+22/28 Test #22: GNC.HungarianBruteForce ...........................   Passed    0.00 sec
+      Start 23: GNC.PNIntercept
+23/28 Test #23: GNC.PNIntercept ...................................   Passed    0.00 sec
+      Start 24: TeamEnv.RewardDeathAndReset
+24/28 Test #24: TeamEnv.RewardDeathAndReset .......................   Passed    0.00 sec
+      Start 25: TeamEnv.InterceptRewardAndTerminalBonus
+25/28 Test #25: TeamEnv.InterceptRewardAndTerminalBonus ...........   Passed    0.00 sec
+      Start 26: TeamEnv.FusedIdentityIsUniqueAcrossSensors
+26/28 Test #26: TeamEnv.FusedIdentityIsUniqueAcrossSensors ........   Passed    0.00 sec
+      Start 27: VecEnv.SchedulingAndAutoReset
+27/28 Test #27: VecEnv.SchedulingAndAutoReset .....................   Passed    0.03 sec
+      Start 28: PrimitiveTuning.SweepOnNonManoeuvringTargets
+28/28 Test #28: PrimitiveTuning.SweepOnNonManoeuvringTargets ......   Passed    0.29 sec
+
+100% tests passed, 0 tests failed out of 28
+
+Total Test time (real) =  13.92 sec
+.......................                                                  [100%]
+=============================== warnings summary ===============================
+tests/test_export.py::test_cpp_export_dynamic_shapes
+  /tmp/hundred-hands-v0-clean/policy/swarm_policy/export.py:48: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+    torch.onnx.export(
+
+tests/test_export.py::test_cpp_export_dynamic_shapes
+  /tmp/hundred-hands-v0-clean/.venv/lib/python3.12/site-packages/torch/onnx/_internal/torchscript_exporter/utils.py:218: DeprecationWarning: The feature will be removed. Please remove usage of this function
+    setup_onnx_logging(verbose) as log_ctx,
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+23 passed, 2 warnings in 196.82s (0:03:16)
+codegen up to date
+C++ package dependency boundaries pass
+wandb: Tracking run with wandb version 0.31.0
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in experiments/clean-walkthrough/train/wandb/offline-run-20261105_083824-gagqrclu
+wandb: View this run in the terminal with `wandb leet`
+wandb: WARNING URL not available in offline run
+wandb: 
+wandb: Run history:
+wandb:  epsilon ▁
+wandb:     loss ▁
+wandb:    stage ▁
+wandb: survival ▁
+wandb: 
+wandb: Run summary:
+wandb:  epsilon 0.05
+wandb:     loss 0.00408
+wandb:    stage 0
+wandb: survival 0
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync experiments/clean-walkthrough/train/wandb/offline-run-20261105_083824-gagqrclu
+wandb: Find logs at: experiments/clean-walkthrough/train/wandb/offline-run-20261105_083824-gagqrclu/logs
+[0;93m2026-11-05 08:38:42.195281501 [W:onnxruntime:swarm, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+wandb: Tracking run with wandb version 0.31.0
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in experiments/clean-walkthrough/evaluation/wandb/offline-run-20261105_083844-t2og0bmo
+wandb: View this run in the terminal with `wandb leet`
+wandb: WARNING URL not available in offline run
+wandb: 
+wandb: Run history:
+wandb:          gqn/survival ▁
+wandb:         idle/survival ▁
+wandb:    pn_greedy/survival ▁
+wandb: pn_hungarian/survival ▁
+wandb:    pp_greedy/survival ▁
+wandb: pp_hungarian/survival ▁
+wandb:       random/survival ▁
+wandb: 
+wandb: Run summary:
+wandb:          gqn/survival 0
+wandb:         idle/survival 0
+wandb:    pn_greedy/survival 1
+wandb: pn_hungarian/survival 1
+wandb:    pp_greedy/survival 0.66667
+wandb: pp_hungarian/survival 0.66667
+wandb:       random/survival 0
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync experiments/clean-walkthrough/evaluation/wandb/offline-run-20261105_083844-t2og0bmo
+wandb: Find logs at: experiments/clean-walkthrough/evaluation/wandb/offline-run-20261105_083844-t2og0bmo/logs
+experiments/clean-walkthrough/report.md

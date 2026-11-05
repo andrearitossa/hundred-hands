@@ -1,0 +1,24 @@
+env: scenarios/v0/env.yaml
+env_counts:
+- 1
+- 4
+- 16
+- 32
+headroom: 2
+hidden_sizes:
+- 16
+- 32
+- 64
+iterations: 200
+seed: 20000000
+target_ms: 10
+teammate_counts:
+- 2
+- 4
+threads:
+- 1
+- 4
+threat_counts:
+- 3
+- 6
+- 12

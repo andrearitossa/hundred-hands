@@ -1,0 +1,8 @@
+{
+  "snapshot_git_sha": "6d6d9f884ff66158e8772ac11f5453b52ebf75e7",
+  "original_git_sha": "0a2819fb771031214ef63d0b07272f3aaf12841e",
+  "source_description": "Fresh source snapshot committed only in temporary checkout; original workspace includes untracked implementation",
+  "status_after_walkthrough": " M README.md\n?? experiments/\n",
+  "command": "bash tools/walkthrough.sh --out experiments/clean-walkthrough",
+  "result": "completed installation, build, 28 C++ and 23 Python tests, codegen, dependency check, training, export, 1000-graph C++ parity, evaluation, recordings, replay and report"
+}

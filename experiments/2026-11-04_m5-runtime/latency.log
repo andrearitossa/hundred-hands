@@ -1,0 +1,188 @@
+[0;93m2026-11-04 15:48:21.378789579 [W:onnxruntime:swarm, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+{
+  "what": "latency",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "measurements": [
+    {
+      "hidden": 16,
+      "threats": 3,
+      "teammates": 2,
+      "parameters": 8043,
+      "bytes": 62234,
+      "p50_ms": 0.026767501917336137,
+      "p99_ms": 0.04891542662452966,
+      "tracking_ms": 0.0010733333333333337
+    },
+    {
+      "hidden": 16,
+      "threats": 3,
+      "teammates": 4,
+      "parameters": 8043,
+      "bytes": 62234,
+      "p50_ms": 0.019205500410452485,
+      "p99_ms": 0.03680293670417925,
+      "tracking_ms": 0.0017549999999999998
+    },
+    {
+      "hidden": 16,
+      "threats": 6,
+      "teammates": 2,
+      "parameters": 8043,
+      "bytes": 62234,
+      "p50_ms": 0.03044149831503381,
+      "p99_ms": 0.05772247544667743,
+      "tracking_ms": 0.002077
+    },
+    {
+      "hidden": 16,
+      "threats": 6,
+      "teammates": 4,
+      "parameters": 8043,
+      "bytes": 62234,
+      "p50_ms": 0.021512600078669192,
+      "p99_ms": 0.03913793056034738,
+      "tracking_ms": 0.0018011999999999995
+    },
+    {
+      "hidden": 16,
+      "threats": 12,
+      "teammates": 2,
+      "parameters": 8043,
+      "bytes": 62234,
+      "p50_ms": 0.03545733356305336,
+      "p99_ms": 0.060900381100366136,
+      "tracking_ms": 0.012481666666666667
+    },
+    {
+      "hidden": 16,
+      "threats": 12,
+      "teammates": 4,
+      "parameters": 8043,
+      "bytes": 62234,
+      "p50_ms": 0.026669599668858946,
+      "p99_ms": 0.0496607924288049,
+      "tracking_ms": 0.009979199999999999
+    },
+    {
+      "hidden": 32,
+      "threats": 3,
+      "teammates": 2,
+      "parameters": 27819,
+      "bytes": 141260,
+      "p50_ms": 0.039543167661928884,
+      "p99_ms": 0.06940739937822703,
+      "tracking_ms": 0.0010913333333333333
+    },
+    {
+      "hidden": 32,
+      "threats": 3,
+      "teammates": 4,
+      "parameters": 27819,
+      "bytes": 141260,
+      "p50_ms": 0.01969950046130046,
+      "p99_ms": 0.031043874327750492,
+      "tracking_ms": 0.0009218000000000003
+    },
+    {
+      "hidden": 32,
+      "threats": 6,
+      "teammates": 2,
+      "parameters": 27819,
+      "bytes": 141260,
+      "p50_ms": 0.032363667354368915,
+      "p99_ms": 0.08172331061384218,
+      "tracking_ms": 0.0020799999999999994
+    },
+    {
+      "hidden": 32,
+      "threats": 6,
+      "teammates": 4,
+      "parameters": 27819,
+      "bytes": 141260,
+      "p50_ms": 0.022630700059764086,
+      "p99_ms": 0.1244189483735878,
+      "tracking_ms": 0.0018093999999999994
+    },
+    {
+      "hidden": 32,
+      "threats": 12,
+      "teammates": 2,
+      "parameters": 27819,
+      "bytes": 141260,
+      "p50_ms": 0.03976266743277386,
+      "p99_ms": 0.05779073180176488,
+      "tracking_ms": 0.006010333333333333
+    },
+    {
+      "hidden": 32,
+      "threats": 12,
+      "teammates": 4,
+      "parameters": 27819,
+      "bytes": 141260,
+      "p50_ms": 0.05069939894419313,
+      "p99_ms": 0.07031559103451815,
+      "tracking_ms": 0.0048662
+    },
+    {
+      "hidden": 64,
+      "threats": 3,
+      "teammates": 2,
+      "parameters": 102699,
+      "bytes": 440565,
+      "p50_ms": 0.03510933247734979,
+      "p99_ms": 0.09559645530525776,
+      "tracking_ms": 0.0010900000000000003
+    },
+    {
+      "hidden": 64,
+      "threats": 3,
+      "teammates": 4,
+      "parameters": 102699,
+      "bytes": 440565,
+      "p50_ms": 0.02762799941103533,
+      "p99_ms": 0.07747771498963783,
+      "tracking_ms": 0.000957
+    },
+    {
+      "hidden": 64,
+      "threats": 6,
+      "teammates": 2,
+      "parameters": 102699,
+      "bytes": 440565,
+      "p50_ms": 0.04526450139779846,
+      "p99_ms": 0.0983000251402358,
+      "tracking_ms": 0.002095
+    },
+    {
+      "hidden": 64,
+      "threats": 6,
+      "teammates": 4,
+      "parameters": 102699,
+      "bytes": 440565,
+      "p50_ms": 0.034450599187602106,
+      "p99_ms": 0.06685227102445324,
+      "tracking_ms": 0.0034841999999999994
+    },
+    {
+      "hidden": 64,
+      "threats": 12,
+      "teammates": 2,
+      "parameters": 102699,
+      "bytes": 440565,
+      "p50_ms": 0.05483133298019817,
+      "p99_ms": 0.09421269119974157,
+      "tracking_ms": 0.008327666666666664
+    },
+    {
+      "hidden": 64,
+      "threats": 12,
+      "teammates": 4,
+      "parameters": 102699,
+      "bytes": 440565,
+      "p50_ms": 0.053977100334198766,
+      "p99_ms": 0.09772033105681051,
+      "tracking_ms": 0.0048595999999999995
+    }
+  ],
+  "chosen_hidden": 64
+}

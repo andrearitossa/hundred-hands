@@ -1,0 +1,8 @@
+{
+  "git_sha": "0a2819fb771031214ef63d0b07272f3aaf12841e",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "wandb_url": null,
+  "wandb_mode": "offline",
+  "seed": 45,
+  "working_tree_dirty": true
+}

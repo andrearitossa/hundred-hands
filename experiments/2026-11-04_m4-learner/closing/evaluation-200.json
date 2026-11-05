@@ -1,0 +1,43 @@
+{
+  "checkpoint": "experiments/2026-11-04_m4-learner/closing/last.pt",
+  "seed": 10000000,
+  "red": 3,
+  "behaviour": "straight",
+  "runtime": "C++ ONNX Runtime",
+  "evaluation": {
+    "episodes": 200,
+    "truncated": 0,
+    "survival": 0.0,
+    "survival_ci95": [
+      0,
+      0.018846005918320894
+    ],
+    "intercept_fraction": 0.005,
+    "intercept_fraction_ci95": [
+      -0.0006295285139860714,
+      0.010629528513986072
+    ],
+    "defender_survival": 0.51,
+    "defender_survival_ci95": [
+      0.46100601935352853,
+      0.5589939806464715
+    ],
+    "first_intercept_s": 26.6166666666676,
+    "first_intercept_s_ci95": [
+      14.339088713703626,
+      38.89424461963158
+    ],
+    "clear_s": null,
+    "clear_s_ci95": null,
+    "episode_s": 52.717100000000165,
+    "episode_s_ci95": [
+      50.44193261842035,
+      54.99226738157998
+    ],
+    "latency_ms": {
+      "p50": 0.056153666666666664,
+      "p99": 0.21498381000000058
+    }
+  },
+  "duration_s": 40.47558274300536
+}

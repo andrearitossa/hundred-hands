@@ -1,0 +1,188 @@
+{
+  "steps": 500000,
+  "updates": 31126,
+  "loss_first": 0.06804732412099838,
+  "loss_last": 0.056498219212517145,
+  "duration_s": 760.0529854490014,
+  "evaluations": [
+    {
+      "steps": 100000,
+      "stage": 0,
+      "episodes": 30,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.113517091390478
+      ],
+      "intercept_fraction": 0.0,
+      "intercept_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "defender_survival": 0.1,
+      "defender_survival_ci95": [
+        0.010572931889412343,
+        0.18942706811058768
+      ],
+      "first_intercept_s": null,
+      "first_intercept_s_ci95": null,
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 51.99999999999946,
+      "episode_s_ci95": [
+        47.06776530718389,
+        56.93223469281503
+      ],
+      "latency_ms": {
+        "p50": 0.6555779982591048,
+        "p99": 1.5883594373008212
+      }
+    },
+    {
+      "steps": 200000,
+      "stage": 0,
+      "episodes": 30,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.113517091390478
+      ],
+      "intercept_fraction": 0.0,
+      "intercept_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "defender_survival": 0.01111111111111111,
+      "defender_survival_ci95": [
+        -0.010666666666666668,
+        0.032888888888888884
+      ],
+      "first_intercept_s": null,
+      "first_intercept_s_ci95": null,
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 51.99999999999946,
+      "episode_s_ci95": [
+        47.06776530718389,
+        56.93223469281503
+      ],
+      "latency_ms": {
+        "p50": 0.7881530036684126,
+        "p99": 1.5214444813318548
+      }
+    },
+    {
+      "steps": 300000,
+      "stage": 0,
+      "episodes": 30,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.113517091390478
+      ],
+      "intercept_fraction": 0.02222222222222222,
+      "intercept_fraction_ci95": [
+        -0.008040540760180362,
+        0.0524849852046248
+      ],
+      "defender_survival": 0.41111111111111115,
+      "defender_survival_ci95": [
+        0.2686486463960036,
+        0.5535735758262187
+      ],
+      "first_intercept_s": 42.22499999999964,
+      "first_intercept_s_ci95": [
+        40.64719999999946,
+        43.80279999999982
+      ],
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 53.355333333333284,
+      "episode_s_ci95": [
+        47.75342960070732,
+        58.95723706595925
+      ],
+      "latency_ms": {
+        "p50": 0.26548666452678543,
+        "p99": 1.6721999623890338
+      }
+    },
+    {
+      "steps": 400000,
+      "stage": 0,
+      "episodes": 30,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.113517091390478
+      ],
+      "intercept_fraction": 0.01111111111111111,
+      "intercept_fraction_ci95": [
+        -0.010666666666666668,
+        0.032888888888888884
+      ],
+      "defender_survival": 0.6666666666666665,
+      "defender_survival_ci95": [
+        0.5453457123909926,
+        0.7879876209423404
+      ],
+      "first_intercept_s": 36.82000000000108,
+      "first_intercept_s_ci95": [
+        36.82000000000108,
+        36.82000000000108
+      ],
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 52.77966666666635,
+      "episode_s_ci95": [
+        47.52590285444832,
+        58.033430478884384
+      ],
+      "latency_ms": {
+        "p50": 0.22954100374287614,
+        "p99": 0.9033011540304859
+      }
+    },
+    {
+      "steps": 500000,
+      "stage": 0,
+      "episodes": 30,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.113517091390478
+      ],
+      "intercept_fraction": 0.01111111111111111,
+      "intercept_fraction_ci95": [
+        -0.010666666666666668,
+        0.032888888888888884
+      ],
+      "defender_survival": 0.4777777777777778,
+      "defender_survival_ci95": [
+        0.331912067451028,
+        0.6236434881045276
+      ],
+      "first_intercept_s": 38.87000000000067,
+      "first_intercept_s_ci95": [
+        38.87000000000067,
+        38.87000000000067
+      ],
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 52.77966666666635,
+      "episode_s_ci95": [
+        47.52590285444832,
+        58.033430478884384
+      ],
+      "latency_ms": {
+        "p50": 0.6646406642782191,
+        "p99": 6.792792879568873
+      }
+    }
+  ]
+}

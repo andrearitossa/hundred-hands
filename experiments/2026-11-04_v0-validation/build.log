@@ -1,0 +1,10 @@
+[0/2] Re-checking globbed directories...
+[1/45] Generating CXX dyndep file _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/CXX.dd
+[2/10] Building CXX object gnc/CMakeFiles/gnc.dir/src/guidance.cpp.o
+[3/10] Building CXX object gnc/CMakeFiles/gnc.dir/src/vec_env.cpp.o
+[4/10] Building CXX object gnc/CMakeFiles/gnc.dir/src/team_env.cpp.o
+[5/10] Linking CXX static library gnc/libgnc.a
+[6/10] Building CXX object gnc/CMakeFiles/gnc_tests.dir/tests/gnc_test.cpp.o
+[7/10] Building CXX object policy/runtime/CMakeFiles/runtime.dir/src/runtime.cpp.o
+[8/10] Linking CXX static library policy/runtime/libruntime.a
+[9/10] Linking CXX executable gnc/gnc_tests

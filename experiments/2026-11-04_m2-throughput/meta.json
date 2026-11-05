@@ -1,0 +1,10 @@
+{
+  "git_sha": "0a2819fb771031214ef63d0b07272f3aaf12841e",
+  "working_tree_dirty": true,
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "cpu": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz",
+  "cpu_count": 4,
+  "seed": 20000000,
+  "commands": "swarm-bench --what env --out experiments/2026-11-04_m2-throughput",
+  "note": "Metadata consolidated after measurement; exact historical source snapshot was not captured."
+}

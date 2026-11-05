@@ -1,0 +1,59 @@
+Test project /home/andrea/hundred-hands/build/release
+      Start  1: Limits.RespectsSpeedAndAccel
+ 1/27 Test  #1: Limits.RespectsSpeedAndAccel ......................   Passed    0.02 sec
+      Start  2: Limits.HoverHoldsAltitude
+ 2/27 Test  #2: Limits.HoverHoldsAltitude .........................   Passed    0.01 sec
+      Start  3: Contacts.Ground
+ 3/27 Test  #3: Contacts.Ground ...................................   Passed    0.01 sec
+      Start  4: Contacts.Building
+ 4/27 Test  #4: Contacts.Building .................................   Passed    0.01 sec
+      Start  5: Contacts.LeavesArea
+ 5/27 Test  #5: Contacts.LeavesArea ...............................   Passed    0.01 sec
+      Start  6: Contacts.TeammatesRemoveEachOther
+ 6/27 Test  #6: Contacts.TeammatesRemoveEachOther .................   Passed    0.01 sec
+      Start  7: Contacts.RedCrashResolvesWithoutIntercept
+ 7/27 Test  #7: Contacts.RedCrashResolvesWithoutIntercept .........   Passed    0.01 sec
+      Start  8: Intercept.RateMatchesPnAndOnePerEntry
+ 8/27 Test  #8: Intercept.RateMatchesPnAndOnePerEntry .............   Passed   15.11 sec
+      Start  9: Asset.HitRadiusEndsEpisode
+ 9/27 Test  #9: Asset.HitRadiusEndsEpisode ........................   Passed    0.01 sec
+      Start 10: Scenario.RespectsPlacementConstraints
+10/27 Test #10: Scenario.RespectsPlacementConstraints .............   Passed    0.01 sec
+      Start 11: Red.EvasiveJinksRespectCooldown
+11/27 Test #11: Red.EvasiveJinksRespectCooldown ...................   Passed    0.03 sec
+      Start 12: Red.WaypointSegmentsClearOfBuildings
+12/27 Test #12: Red.WaypointSegmentsClearOfBuildings ..............   Passed    0.24 sec
+      Start 13: Red.SampledDirectApproachesClearAtEveryAltitude
+13/27 Test #13: Red.SampledDirectApproachesClearAtEveryAltitude ...   Passed    0.00 sec
+      Start 14: Control.FirstOrderStepResponse
+14/27 Test #14: Control.FirstOrderStepResponse ....................   Passed    0.00 sec
+      Start 15: Tracker.ReproducesConstantVelocity
+15/27 Test #15: Tracker.ReproducesConstantVelocity ................   Passed    0.00 sec
+      Start 16: Tracker.CoastsThenDrops
+16/27 Test #16: Tracker.CoastsThenDrops ...........................   Passed    0.00 sec
+      Start 17: Tracker.KeepsCrossingTargetsSeparate
+17/27 Test #17: Tracker.KeepsCrossingTargetsSeparate ..............   Passed    0.00 sec
+      Start 18: Fusion.MergesDuplicatesOnly
+18/27 Test #18: Fusion.MergesDuplicatesOnly .......................   Passed    0.00 sec
+      Start 19: Graph.EgoFrameAndUncappedCounts
+19/27 Test #19: Graph.EgoFrameAndUncappedCounts ...................   Passed    0.00 sec
+      Start 20: Graph.NoGlobalNodesWhenViewUnavailable
+20/27 Test #20: Graph.NoGlobalNodesWhenViewUnavailable ............   Passed    0.00 sec
+      Start 21: GNC.ControllerAndPrimitives
+21/27 Test #21: GNC.ControllerAndPrimitives .......................   Passed    0.00 sec
+      Start 22: GNC.HungarianBruteForce
+22/27 Test #22: GNC.HungarianBruteForce ...........................   Passed    0.00 sec
+      Start 23: GNC.PNIntercept
+23/27 Test #23: GNC.PNIntercept ...................................   Passed    0.00 sec
+      Start 24: TeamEnv.RewardDeathAndReset
+24/27 Test #24: TeamEnv.RewardDeathAndReset .......................   Passed    0.01 sec
+      Start 25: TeamEnv.InterceptRewardAndTerminalBonus
+25/27 Test #25: TeamEnv.InterceptRewardAndTerminalBonus ...........   Passed    0.00 sec
+      Start 26: TeamEnv.FusedIdentityIsUniqueAcrossSensors
+26/27 Test #26: TeamEnv.FusedIdentityIsUniqueAcrossSensors ........   Passed    0.00 sec
+      Start 27: VecEnv.SchedulingAndAutoReset
+27/27 Test #27: VecEnv.SchedulingAndAutoReset .....................   Passed    0.03 sec
+
+100% tests passed, 0 tests failed out of 27
+
+Total Test time (real) =  15.54 sec

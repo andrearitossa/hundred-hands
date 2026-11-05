@@ -1,0 +1,14 @@
+env: scenarios/v0/env.yaml
+seed: 10000000
+episodes: 1000
+wandb_mode: offline
+policies:
+- idle
+- random
+- pp_greedy
+- pn_greedy
+- pp_hungarian
+- pn_hungarian
+conditions:
+- red: 3
+  behaviour: straight

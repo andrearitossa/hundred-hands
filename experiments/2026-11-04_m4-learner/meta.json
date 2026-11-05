@@ -1,0 +1,13 @@
+{
+  "git_sha": "0a2819fb771031214ef63d0b07272f3aaf12841e",
+  "working_tree_dirty": true,
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "cpu_count": 4,
+  "journal_updated_at": "2026-11-04T15:21:31.167818+00:00",
+  "scope": "aggregate of separately logged diagnostic runs",
+  "commands": [
+    "swarm-train --config <child>/config.yaml --out <child>",
+    "python -m swarm_policy.teacher --out experiments/2026-11-04_m4-learner/teacher"
+  ],
+  "provenance_note": "Use child run metadata/configuration. Early runs preceded source-manifest and start/duration metadata improvements; those fields are not retrospectively fabricated."
+}

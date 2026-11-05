@@ -1,0 +1,12 @@
+/home/andrea/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-bliw11ri because there was an issue with the default path (/home/andrea/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+idle {'survival': np.float64(0.0), 'intercept_fraction': np.float64(0.0), 'truncated': 0}
+random {'survival': np.float64(0.0), 'intercept_fraction': np.float64(0.0), 'truncated': 0}
+pp_greedy {'survival': np.float64(0.25), 'intercept_fraction': np.float64(0.4833333333333333), 'truncated': 0}
+pn_greedy {'survival': np.float64(0.6), 'intercept_fraction': np.float64(0.7333333333333334), 'truncated': 0}
+pp_hungarian {'survival': np.float64(0.2), 'intercept_fraction': np.float64(0.4666666666666667), 'truncated': 0}
+pn_hungarian {'survival': np.float64(0.6), 'intercept_fraction': np.float64(0.7333333333333334), 'truncated': 0}
+{'envs': 1, 'threads': 1, 'seconds': 0.02786871400894597, 'env_decisions_per_second': 3588.253120251605}
+{'envs': 4, 'threads': 4, 'seconds': 0.056770187002257444, 'env_decisions_per_second': 7045.951777190626}
+{'envs': 16, 'threads': 16, 'seconds': 0.16237073299998883, 'env_decisions_per_second': 9853.992591140855}
+{'envs': 32, 'threads': 32, 'seconds': 0.32786610900075175, 'env_decisions_per_second': 9760.081667948982}

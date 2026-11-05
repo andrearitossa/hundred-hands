@@ -1,0 +1,137 @@
+env: scenarios/v0/env.yaml
+seed: 42
+steps: 8000
+envs: 8
+threads: 4
+hidden: 32
+heads: 4
+message_dim: 16
+lr: 0.0005
+gamma: 0.99
+n_step: 5
+batch: 32
+replay_capacity: 20000
+replay_compression: true
+warmup: 256
+update_every: 16
+tau: 0.005
+grad_clip: 10
+epsilon_start: 1.0
+epsilon_end: 0.05
+exploration_fraction: 0.3
+checkpoint_every: 8000
+eval_every: 8000
+eval_episodes: 3
+eval_seed: 10000000
+red_count: 3
+wandb_mode: offline
+device: cpu
+shaping: 0.0
+shaping_mode: potential
+team_loss_penalty: 0.0
+curriculum:
+- weights:
+  - 1
+  - 0
+  - 0
+  threshold: 0.7
+  budget: 2000000
+- weights:
+  - 1
+  - 1
+  - 0
+  threshold: 0.7
+  budget: 2000000
+- weights:
+  - 1
+  - 1
+  - 1
+  threshold: 0.7
+  budget: 1000000
+resolved_env:
+  limits:
+    mass: 2.064
+    v_max: 15.0
+    vz_max: 5.0
+    a_max: 8.0
+    az_max: 4.0
+  world:
+    half_extent: 500.0
+    z_max: 150.0
+    buildings:
+      min: 5
+      max: 10
+      side_min: 10.0
+      side_max: 40.0
+      height_min: 10.0
+      height_max: 60.0
+      asset_clearance: 40.0
+      spawn_clearance: 60.0
+    asset:
+      radius: 10.0
+      half_range: 300.0
+      hit_margin: 2.0
+  drone:
+    radius: 0.4
+    contact_distance: 0.8
+  timing:
+    physics_dt: 0.002
+    physics_per_control: 5
+    control_per_decision: 10
+    max_decisions: 3000
+  control:
+    k_v: 2.0
+  intercept:
+    capture_radius: 3.0
+    p_n: 0.7
+  blue:
+    count: 3
+    dist_min: 50.0
+    dist_max: 150.0
+    alt_min: 20.0
+    alt_max: 50.0
+  red:
+    count_min: 3
+    count_max: 3
+    alt_min: 20.0
+    alt_max: 60.0
+    cruise_min: 6.0
+    cruise_max: 12.0
+    spawn_window: 10.0
+    behaviour_weights:
+      straight: 1
+      waypoint: 0
+      evasive: 0
+    waypoints:
+      min: 1
+      max: 3
+      lateral: 200.0
+      reach: 10.0
+      clearance: 15.0
+      max_samples: 200
+    evasive:
+      trigger: 30.0
+      duration: 1.0
+      cooldown: 2.0
+      max_angle_deg: 60.0
+  perception:
+    onboard_range: 300.0
+    ground_range: 500.0
+    tracker:
+      coast: 2.0
+      gate: 20.0
+      accel_var: 4.0
+      meas_var: 0.0001
+      init_vel_var: 400.0
+    fusion:
+      pos: 5.0
+      vel: 3.0
+  actions:
+    turn_deg: 20.0
+    climb: 3.0
+    speed: 3.0
+  baseline:
+    pn_gain: 3.0
+    reassign_s: 1.0
+    guard_dist: 60.0
+    guard_alt: 30.0

@@ -1,0 +1,321 @@
+{
+  "evaluation": [
+    {
+      "policy": "idle",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 3,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.5615060804490177
+      ],
+      "intercept_fraction": 0.0,
+      "intercept_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "defender_survival": 1.0,
+      "defender_survival_ci95": [
+        1.0,
+        1.0
+      ],
+      "first_intercept_s": null,
+      "first_intercept_s_ci95": null,
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 47.30666666666582,
+      "episode_s_ci95": [
+        39.1908280931674,
+        55.42250524016424
+      ],
+      "latency_ms": {
+        "p50": 2.4e-05,
+        "p99": 0.00014874999999999955
+      }
+    },
+    {
+      "policy": "random",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 3,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.5615060804490177
+      ],
+      "intercept_fraction": 0.0,
+      "intercept_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "defender_survival": 0.4444444444444444,
+      "defender_survival_ci95": [
+        0.22666666666666663,
+        0.6622222222222223
+      ],
+      "first_intercept_s": null,
+      "first_intercept_s_ci95": null,
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 47.30666666666582,
+      "episode_s_ci95": [
+        39.1908280931674,
+        55.42250524016424
+      ],
+      "latency_ms": {
+        "p50": 7.4e-05,
+        "p99": 0.0005144299999999999
+      }
+    },
+    {
+      "policy": "pp_greedy",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 3,
+      "truncated": 0,
+      "survival": 0.6666666666666666,
+      "survival_ci95": [
+        0.2076549551264879,
+        0.9385096847238394
+      ],
+      "intercept_fraction": 0.8888888888888888,
+      "intercept_fraction_ci95": [
+        0.671111111111111,
+        1.1066666666666667
+      ],
+      "defender_survival": 0.4444444444444444,
+      "defender_survival_ci95": [
+        -0.13174139663184425,
+        1.020630285520733
+      ],
+      "first_intercept_s": 20.19666666666759,
+      "first_intercept_s_ci95": [
+        15.791179395345639,
+        24.60215393798954
+      ],
+      "clear_s": 47.93999999999845,
+      "clear_s_ci95": [
+        27.124800000001567,
+        68.75519999999533
+      ],
+      "episode_s": 73.29333333334004,
+      "episode_s_ci95": [
+        28.841811883947187,
+        117.7448547827329
+      ],
+      "latency_ms": {
+        "p50": 0.11496283333333333,
+        "p99": 4.288246989999992
+      }
+    },
+    {
+      "policy": "pn_greedy",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 3,
+      "truncated": 0,
+      "survival": 1.0,
+      "survival_ci95": [
+        0.43849391955098227,
+        1
+      ],
+      "intercept_fraction": 1.0,
+      "intercept_fraction_ci95": [
+        1.0,
+        1.0
+      ],
+      "defender_survival": 0.7777777777777777,
+      "defender_survival_ci95": [
+        0.3422222222222221,
+        1.2133333333333334
+      ],
+      "first_intercept_s": 20.38666666666762,
+      "first_intercept_s_ci95": [
+        16.35188501816266,
+        24.42144831517258
+      ],
+      "clear_s": 52.376666666665706,
+      "clear_s_ci95": [
+        35.25215689876033,
+        69.50117643457108
+      ],
+      "episode_s": 55.73666666666566,
+      "episode_s_ci95": [
+        39.839301180383686,
+        71.63403215294764
+      ],
+      "latency_ms": {
+        "p50": 0.11536566666666667,
+        "p99": 1.4955417566666667
+      }
+    },
+    {
+      "policy": "pp_hungarian",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 3,
+      "truncated": 0,
+      "survival": 0.6666666666666666,
+      "survival_ci95": [
+        0.2076549551264879,
+        0.9385096847238394
+      ],
+      "intercept_fraction": 0.8888888888888888,
+      "intercept_fraction_ci95": [
+        0.671111111111111,
+        1.1066666666666667
+      ],
+      "defender_survival": 0.4444444444444444,
+      "defender_survival_ci95": [
+        -0.13174139663184425,
+        1.020630285520733
+      ],
+      "first_intercept_s": 20.19666666666759,
+      "first_intercept_s_ci95": [
+        15.791179395345639,
+        24.60215393798954
+      ],
+      "clear_s": 47.39499999999856,
+      "clear_s_ci95": [
+        25.511600000001895,
+        69.27839999999523
+      ],
+      "episode_s": 72.93000000000679,
+      "episode_s_ci95": [
+        28.00393961985116,
+        117.8560603801624
+      ],
+      "latency_ms": {
+        "p50": 0.12117699999999999,
+        "p99": 1.6009867999999985
+      }
+    },
+    {
+      "policy": "pn_hungarian",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 3,
+      "truncated": 0,
+      "survival": 1.0,
+      "survival_ci95": [
+        0.43849391955098227,
+        1
+      ],
+      "intercept_fraction": 1.0,
+      "intercept_fraction_ci95": [
+        1.0,
+        1.0
+      ],
+      "defender_survival": 0.7777777777777777,
+      "defender_survival_ci95": [
+        0.3422222222222221,
+        1.2133333333333334
+      ],
+      "first_intercept_s": 20.38666666666762,
+      "first_intercept_s_ci95": [
+        16.35188501816266,
+        24.42144831517258
+      ],
+      "clear_s": 51.69999999999917,
+      "clear_s_ci95": [
+        33.338645795766396,
+        70.06135420423195
+      ],
+      "episode_s": 55.05999999999913,
+      "episode_s_ci95": [
+        38.04039329714097,
+        72.07960670285729
+      ],
+      "latency_ms": {
+        "p50": 0.11389916666666666,
+        "p99": 1.6716037300000004
+      }
+    },
+    {
+      "policy": "gqn",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 3,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.5615060804490177
+      ],
+      "intercept_fraction": 0.0,
+      "intercept_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "defender_survival": 0.0,
+      "defender_survival_ci95": [
+        0.0,
+        0.0
+      ],
+      "first_intercept_s": null,
+      "first_intercept_s_ci95": null,
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 47.30666666666582,
+      "episode_s_ci95": [
+        39.1908280931674,
+        55.42250524016424
+      ],
+      "latency_ms": {
+        "p50": 0.1159405,
+        "p99": 4.135060866666628
+      }
+    }
+  ],
+  "training": {
+    "steps": 8000,
+    "updates": 485,
+    "loss_first": 0.08911091902293265,
+    "loss_last": 0.004082094896584749,
+    "duration_s": 22.62110806599958,
+    "evaluations": [
+      {
+        "steps": 8000,
+        "stage": 0,
+        "episodes": 3,
+        "truncated": 0,
+        "survival": 0.0,
+        "survival_ci95": [
+          0,
+          0.5615060804490177
+        ],
+        "intercept_fraction": 0.0,
+        "intercept_fraction_ci95": [
+          0.0,
+          0.0
+        ],
+        "defender_survival": 0.0,
+        "defender_survival_ci95": [
+          0.0,
+          0.0
+        ],
+        "first_intercept_s": null,
+        "first_intercept_s_ci95": null,
+        "clear_s": null,
+        "clear_s_ci95": null,
+        "episode_s": 47.30666666666582,
+        "episode_s_ci95": [
+          39.1908280931674,
+          55.42250524016424
+        ],
+        "latency_ms": {
+          "p50": 0.6386643362930045,
+          "p99": 5.944373367383377
+        }
+      }
+    ]
+  },
+  "parity": {
+    "observations": 1000,
+    "max_absolute_error": 4.470348358154297e-08
+  },
+  "duration_s": 41.996445641998434
+}

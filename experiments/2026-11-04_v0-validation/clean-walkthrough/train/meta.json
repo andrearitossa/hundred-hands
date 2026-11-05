@@ -1,0 +1,18 @@
+{
+  "git_sha": "6d6d9f884ff66158e8772ac11f5453b52ebf75e7",
+  "started_at": "2026-11-05T07:38:25.027106+00:00",
+  "command": [
+    "/tmp/hundred-hands-v0-clean/.venv/bin/swarm-walkthrough",
+    "--out",
+    "experiments/clean-walkthrough"
+  ],
+  "cpu_count": 4,
+  "cpu": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "wandb_url": null,
+  "wandb_mode": "offline",
+  "seed": 42,
+  "working_tree_dirty": true,
+  "duration_s": 17.695049636997283,
+  "finished_at": "2026-11-05T07:38:41.688232+00:00"
+}

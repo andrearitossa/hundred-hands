@@ -1,0 +1,12 @@
+.......................                                                  [100%]
+=============================== warnings summary ===============================
+tests/test_export.py::test_cpp_export_dynamic_shapes
+  /home/andrea/hundred-hands/policy/swarm_policy/export.py:48: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+    torch.onnx.export(
+
+tests/test_export.py::test_cpp_export_dynamic_shapes
+  /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/onnx/_internal/torchscript_exporter/utils.py:218: DeprecationWarning: The feature will be removed. Please remove usage of this function
+    setup_onnx_logging(verbose) as log_ctx,
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+23 passed, 2 warnings in 192.46s (0:03:12)

@@ -1,0 +1,10 @@
+{"step": null, "cross_entropy": 2.3988413647413256, "updates": 1000}
+{"step": null, "cross_entropy": 1.9898452965021134, "updates": 2000}
+{"step": null, "cross_entropy": 1.8582571878433227, "updates": 3000}
+{"step": null, "aggregation_round": 1, "survival": 0.0, "intercept_fraction": 0.003333333333333333}
+{"step": null, "aggregation_round": 2, "survival": 0.0, "intercept_fraction": 0.0}
+{"step": null, "aggregation_round": 3, "survival": 0.0, "intercept_fraction": 0.0016666666666666666}
+{"step": null, "aggregation_round": 4, "survival": 0.0, "intercept_fraction": 0.0016666666666666666}
+{"step": null, "aggregation_round": 5, "survival": 0.0, "intercept_fraction": 0.0016666666666666666}
+{"step": null, "aggregation_round": 6, "survival": 0.0, "intercept_fraction": 0.0}
+{"step": null, "survival": 0.0, "intercept_fraction": 0.0}

@@ -1,0 +1,22 @@
+wandb: Tracking run with wandb version 0.31.0
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in experiments/2026-11-04_m4-learner/shaped/wandb/offline-run-20261104_154947-qv264nxj
+wandb: View this run in the terminal with `wandb leet`
+wandb: WARNING URL not available in offline run
+wandb: 
+wandb: Run history:
+wandb:  epsilon █▁▁▁▁
+wandb:     loss █▅█▂▁
+wandb:    stage ▁▁▁▁▁
+wandb: survival ▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:  epsilon 0.05
+wandb:     loss 0.00515
+wandb:    stage 0
+wandb: survival 0
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync experiments/2026-11-04_m4-learner/shaped/wandb/offline-run-20261104_154947-qv264nxj
+wandb: Find logs at: experiments/2026-11-04_m4-learner/shaped/wandb/offline-run-20261104_154947-qv264nxj/logs
+{'steps': 250000, 'updates': 31001, 'loss_first': 0.24150160051882266, 'loss_last': 0.0051507825695443895, 'duration_s': 607.7360946629924, 'evaluations': [{'steps': 50000, 'stage': 0, 'episodes': 30, 'truncated': 0, 'survival': 0.0, 'survival_ci95': [0, np.float64(0.113517091390478)], 'intercept_fraction': 0.0, 'intercept_fraction_ci95': [np.float64(0.0), np.float64(0.0)], 'defender_survival': 1.0, 'defender_survival_ci95': [np.float64(1.0), np.float64(1.0)], 'first_intercept_s': None, 'first_intercept_s_ci95': None, 'clear_s': None, 'clear_s_ci95': None, 'episode_s': 51.99999999999946, 'episode_s_ci95': [np.float64(47.06776530718389), np.float64(56.93223469281503)], 'latency_ms': {'p50': 0.23385699993620315, 'p99': 0.4267779885170359}}, {'steps': 100000, 'stage': 0, 'episodes': 30, 'truncated': 0, 'survival': 0.0, 'survival_ci95': [0, np.float64(0.113517091390478)], 'intercept_fraction': 0.0, 'intercept_fraction_ci95': [np.float64(0.0), np.float64(0.0)], 'defender_survival': 0.4777777777777778, 'defender_survival_ci95': [np.float64(0.331912067451028), np.float64(0.6236434881045276)], 'first_intercept_s': None, 'first_intercept_s_ci95': None, 'clear_s': None, 'clear_s_ci95': None, 'episode_s': 51.99999999999946, 'episode_s_ci95': [np.float64(47.06776530718389), np.float64(56.93223469281503)], 'latency_ms': {'p50': 0.3328060023098563, 'p99': 1.0439556470373645}}, {'steps': 150000, 'stage': 0, 'episodes': 30, 'truncated': 0, 'survival': 0.0, 'survival_ci95': [0, np.float64(0.113517091390478)], 'intercept_fraction': 0.0, 'intercept_fraction_ci95': [np.float64(0.0), np.float64(0.0)], 'defender_survival': 0.1, 'defender_survival_ci95': [np.float64(0.028912408103919776), np.float64(0.17108759189608025)], 'first_intercept_s': None, 'first_intercept_s_ci95': None, 'clear_s': None, 'clear_s_ci95': None, 'episode_s': 51.99999999999946, 'episode_s_ci95': [np.float64(47.06776530718389), np.float64(56.93223469281503)], 'latency_ms': {'p50': 0.36554449616232887, 'p99': 1.2772772030439226}}, {'steps': 200000, 'stage': 0, 'episodes': 30, 'truncated': 0, 'survival': 0.0, 'survival_ci95': [0, np.float64(0.113517091390478)], 'intercept_fraction': 0.0, 'intercept_fraction_ci95': [np.float64(0.0), np.float64(0.0)], 'defender_survival': 0.4666666666666666, 'defender_survival_ci95': [np.float64(0.29914414382950694), np.float64(0.6341891895038263)], 'first_intercept_s': None, 'first_intercept_s_ci95': None, 'clear_s': None, 'clear_s_ci95': None, 'episode_s': 51.99999999999946, 'episode_s_ci95': [np.float64(47.06776530718389), np.float64(56.93223469281503)], 'latency_ms': {'p50': 0.3814950032392517, 'p99': 1.482287747785449}}, {'steps': 250000, 'stage': 0, 'episodes': 30, 'truncated': 0, 'survival': 0.0, 'survival_ci95': [0, np.float64(0.113517091390478)], 'intercept_fraction': 0.0, 'intercept_fraction_ci95': [np.float64(0.0), np.float64(0.0)], 'defender_survival': 0.5111111111111111, 'defender_survival_ci95': [np.float64(0.3585058319698031), np.float64(0.663716390252419)], 'first_intercept_s': None, 'first_intercept_s_ci95': None, 'clear_s': None, 'clear_s_ci95': None, 'episode_s': 51.99999999999946, 'episode_s_ci95': [np.float64(47.06776530718389), np.float64(56.93223469281503)], 'latency_ms': {'p50': 0.43678599467966706, 'p99': 1.5376891195774054}}]}

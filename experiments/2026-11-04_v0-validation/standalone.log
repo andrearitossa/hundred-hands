@@ -1,0 +1,67 @@
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/swarm-core-standalone
+[  2%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
+[  5%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
+[  8%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
+[ 11%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
+[ 14%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o
+[ 17%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+[ 20%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
+[ 22%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
+[ 25%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
+[ 28%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
+[ 31%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+[ 34%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o
+[ 37%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+[ 40%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/fptostring.cpp.o
+[ 42%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
+[ 45%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
+[ 48%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
+[ 51%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+[ 54%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
+[ 57%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
+[ 60%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
+[ 62%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
+[ 65%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+[ 68%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o
+[ 71%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
+[ 74%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+[ 77%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+[ 80%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+[ 82%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
+[ 85%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
+[ 88%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
+[ 91%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
+[ 94%] Linking CXX static library libyaml-cpp.a
+[ 94%] Built target yaml-cpp
+[ 97%] Building CXX object swarm/core/CMakeFiles/core.dir/src/config.cpp.o
+[100%] Linking CXX static library libcore.a
+[100%] Built target core
+-- Install configuration: ""
+-- Installing: /tmp/swarm-core-install/lib/libcore.a
+-- Installing: /tmp/swarm-core-install/include
+-- Installing: /tmp/swarm-core-install/include/core
+-- Installing: /tmp/swarm-core-install/include/core/types.hpp
+-- Installing: /tmp/swarm-core-install/include/core/config.hpp
+-- Installing: /tmp/swarm-core-install/include/core/velocity_control.hpp
+-- Installing: /tmp/swarm-core-install/share/core/package.xml

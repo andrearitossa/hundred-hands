@@ -1,0 +1,7 @@
+Resolved 81 packages in 4ms
+   Building swarm-defence @ file:///home/andrea/hundred-hands
+      Built swarm-defence @ file:///home/andrea/hundred-hands
+Prepared 1 package in 4.94s
+Uninstalled 1 package in 1ms
+Installed 1 package in 2ms
+ ~ swarm-defence==0.0.1 (from file:///home/andrea/hundred-hands)

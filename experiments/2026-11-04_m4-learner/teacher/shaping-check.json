@@ -1,0 +1,142 @@
+[
+  {
+    "seed": 7100000,
+    "sparse": 2.0,
+    "potential_terms": 7.527328328309837,
+    "closing_terms": 153.8299321634618,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100001,
+    "sparse": 2.0,
+    "potential_terms": 7.726598868422962,
+    "closing_terms": 341.4911882845054,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100002,
+    "sparse": 2.0,
+    "potential_terms": 4.918522970308127,
+    "closing_terms": 81.61125678508196,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100003,
+    "sparse": 2.0,
+    "potential_terms": 5.665370055958998,
+    "closing_terms": 275.3695029299706,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100004,
+    "sparse": 2.0,
+    "potential_terms": 25.675464363795026,
+    "closing_terms": 680.6971281925216,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100005,
+    "sparse": -0.33333333333333337,
+    "potential_terms": 17.93963209529454,
+    "closing_terms": 357.31047266799334,
+    "intercepts": 2
+  },
+  {
+    "seed": 7100006,
+    "sparse": 2.0,
+    "potential_terms": 17.696012630758666,
+    "closing_terms": 388.66728056035936,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100007,
+    "sparse": 2.0,
+    "potential_terms": 16.97469924028615,
+    "closing_terms": 377.81723841531976,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100008,
+    "sparse": -0.33333333333333337,
+    "potential_terms": 17.888421021257024,
+    "closing_terms": 480.6021603660968,
+    "intercepts": 2
+  },
+  {
+    "seed": 7100009,
+    "sparse": 2.0,
+    "potential_terms": 19.302661338652417,
+    "closing_terms": 468.72631410447264,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100010,
+    "sparse": 2.0,
+    "potential_terms": 22.874236076634784,
+    "closing_terms": 276.913543801386,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100011,
+    "sparse": 2.0,
+    "potential_terms": 16.25154322696968,
+    "closing_terms": 402.1086492035247,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100012,
+    "sparse": 2.0,
+    "potential_terms": 7.341200945018369,
+    "closing_terms": 224.9546809210443,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100013,
+    "sparse": 2.0,
+    "potential_terms": 5.685280650160277,
+    "closing_terms": 132.71227362306857,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100014,
+    "sparse": 2.0,
+    "potential_terms": 19.772864203005206,
+    "closing_terms": 452.49036285158945,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100015,
+    "sparse": 2.0,
+    "potential_terms": 11.898349599333912,
+    "closing_terms": 374.47725091839175,
+    "intercepts": 3
+  },
+  {
+    "seed": 7100016,
+    "sparse": -0.6666666666666667,
+    "potential_terms": 5.358225521680449,
+    "closing_terms": 86.0972921558034,
+    "intercepts": 1
+  },
+  {
+    "seed": 7100017,
+    "sparse": -0.6666666666666667,
+    "potential_terms": 20.120502381242044,
+    "closing_terms": 304.76333846765215,
+    "intercepts": 1
+  },
+  {
+    "seed": 7100018,
+    "sparse": -1.0,
+    "potential_terms": 13.769276411084018,
+    "closing_terms": 97.30328510763745,
+    "intercepts": 0
+  },
+  {
+    "seed": 7100019,
+    "sparse": 2.0,
+    "potential_terms": 7.8930621509865375,
+    "closing_terms": 218.40934773588387,
+    "intercepts": 3
+  }
+]

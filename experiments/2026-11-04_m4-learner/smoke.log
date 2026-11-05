@@ -1,0 +1,22 @@
+wandb: Tracking run with wandb version 0.31.0
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in experiments/2026-11-04_m4-learner/smoke/wandb/offline-run-20261104_154449-ecfxkymj
+wandb: View this run in the terminal with `wandb leet`
+wandb: WARNING URL not available in offline run
+wandb: 
+wandb: Run history:
+wandb:  epsilon ▁
+wandb:     loss ▁
+wandb:    stage ▁
+wandb: survival ▁
+wandb: 
+wandb: Run summary:
+wandb:  epsilon 0.05
+wandb:     loss 0.00408
+wandb:    stage 0
+wandb: survival 0
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync experiments/2026-11-04_m4-learner/smoke/wandb/offline-run-20261104_154449-ecfxkymj
+wandb: Find logs at: experiments/2026-11-04_m4-learner/smoke/wandb/offline-run-20261104_154449-ecfxkymj/logs
+{'steps': 8000, 'updates': 485, 'loss_first': 0.08911091902293265, 'loss_last': 0.004082094896584749, 'duration_s': 10.371134449000238, 'evaluations': [{'steps': 8000, 'stage': 0, 'episodes': 10, 'truncated': 0, 'survival': 0.0, 'survival_ci95': [0, np.float64(0.2775401687666166)], 'intercept_fraction': 0.0, 'intercept_fraction_ci95': [np.float64(0.0), np.float64(0.0)], 'defender_survival': 0.0, 'defender_survival_ci95': [np.float64(0.0), np.float64(0.0)], 'first_intercept_s': None, 'first_intercept_s_ci95': None, 'clear_s': None, 'clear_s_ci95': None, 'episode_s': 52.94999999999991, 'episode_s_ci95': [np.float64(43.68786174896095), np.float64(62.21213825103887)], 'latency_ms': {'p50': 0.2993956659338437, 'p99': 0.7430648023000689}}]}

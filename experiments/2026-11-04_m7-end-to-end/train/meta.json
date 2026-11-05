@@ -1,0 +1,16 @@
+{
+  "git_sha": "0a2819fb771031214ef63d0b07272f3aaf12841e",
+  "started_at": "2026-11-04T15:24:12.613049+00:00",
+  "command": [
+    ".venv/bin/swarm-walkthrough"
+  ],
+  "cpu_count": 4,
+  "cpu": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "wandb_url": null,
+  "wandb_mode": "offline",
+  "seed": 42,
+  "working_tree_dirty": true,
+  "duration_s": 23.82036270199751,
+  "finished_at": "2026-11-04T15:24:35.249364+00:00"
+}

@@ -1,0 +1,244 @@
+{
+  "evaluation": [
+    {
+      "policy": "idle",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 1000,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.003826898586390522
+      ],
+      "intercept_fraction": 0.0026666666666666666,
+      "intercept_fraction_ci95": [
+        0.0008252464703370614,
+        0.004508086862996271
+      ],
+      "defender_survival": 1.0,
+      "defender_survival_ci95": [
+        1.0,
+        1.0
+      ],
+      "first_intercept_s": 44.55124999999951,
+      "first_intercept_s_ci95": [
+        35.87785260091286,
+        53.224647399086166
+      ],
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 52.30362999999989,
+      "episode_s_ci95": [
+        51.307931556331866,
+        53.29932844366792
+      ],
+      "latency_ms": {
+        "p50": 1.2333333333333333e-05,
+        "p99": 0.00011666666666666667
+      }
+    },
+    {
+      "policy": "random",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 1000,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.003826898586390522
+      ],
+      "intercept_fraction": 0.0006666666666666666,
+      "intercept_fraction_ci95": [
+        -0.00025682363943111124,
+        0.0015901569727644446
+      ],
+      "defender_survival": 0.7326666666666666,
+      "defender_survival_ci95": [
+        0.7168594913806182,
+        0.7484738419527149
+      ],
+      "first_intercept_s": 28.705000000001576,
+      "first_intercept_s_ci95": [
+        20.972800000001058,
+        36.43720000000209
+      ],
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 52.26596999999989,
+      "episode_s_ci95": [
+        51.27094092282988,
+        53.2609990771699
+      ],
+      "latency_ms": {
+        "p50": 2.05e-05,
+        "p99": 0.000227
+      }
+    },
+    {
+      "policy": "pp_greedy",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 1000,
+      "truncated": 0,
+      "survival": 0.41,
+      "survival_ci95": [
+        0.37991671320713805,
+        0.4407721285384123
+      ],
+      "intercept_fraction": 0.657,
+      "intercept_fraction_ci95": [
+        0.6357368531985318,
+        0.6782631468014683
+      ],
+      "defender_survival": 0.499,
+      "defender_survival_ci95": [
+        0.4801456577309051,
+        0.5178543422690949
+      ],
+      "first_intercept_s": 25.21054748603421,
+      "first_intercept_s_ci95": [
+        24.513522399438173,
+        25.907572572630244
+      ],
+      "clear_s": 59.41317073170863,
+      "clear_s_ci95": [
+        57.549969296449476,
+        61.27637216696779
+      ],
+      "episode_s": 65.74589000000235,
+      "episode_s_ci95": [
+        64.37896309361587,
+        67.11281690638883
+      ],
+      "latency_ms": {
+        "p50": 0.145099,
+        "p99": 0.31881465000000025
+      }
+    },
+    {
+      "policy": "pn_greedy",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 1000,
+      "truncated": 0,
+      "survival": 0.573,
+      "survival_ci95": [
+        0.5421198333410192,
+        0.6033214394653678
+      ],
+      "intercept_fraction": 0.7513333333333334,
+      "intercept_fraction_ci95": [
+        0.7306681151163615,
+        0.7719985515503053
+      ],
+      "defender_survival": 0.4873333333333333,
+      "defender_survival_ci95": [
+        0.46907109081825704,
+        0.5055955758484095
+      ],
+      "first_intercept_s": 24.526422319475422,
+      "first_intercept_s_ci95": [
+        23.80200616328572,
+        25.250838475665123
+      ],
+      "clear_s": 60.29680628272415,
+      "clear_s_ci95": [
+        58.650098278531765,
+        61.94351428691653
+      ],
+      "episode_s": 65.48096000000203,
+      "episode_s_ci95": [
+        64.17984979310997,
+        66.78207020689409
+      ],
+      "latency_ms": {
+        "p50": 0.146119,
+        "p99": 0.34179159
+      }
+    },
+    {
+      "policy": "pp_hungarian",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 1000,
+      "truncated": 0,
+      "survival": 0.419,
+      "survival_ci95": [
+        0.38878601358076414,
+        0.44983394399023113
+      ],
+      "intercept_fraction": 0.664,
+      "intercept_fraction_ci95": [
+        0.6428398153801419,
+        0.6851601846198582
+      ],
+      "defender_survival": 0.5003333333333333,
+      "defender_survival_ci95": [
+        0.4814562524147636,
+        0.519210414251903
+      ],
+      "first_intercept_s": 25.19080088987832,
+      "first_intercept_s_ci95": [
+        24.495577711972324,
+        25.88602406778432
+      ],
+      "clear_s": 58.93386634844996,
+      "clear_s_ci95": [
+        57.079293479867744,
+        60.78843921703218
+      ],
+      "episode_s": 65.66485000000228,
+      "episode_s_ci95": [
+        64.30301484565531,
+        67.02668515434924
+      ],
+      "latency_ms": {
+        "p50": 0.156756,
+        "p99": 0.35350606000000007
+      }
+    },
+    {
+      "policy": "pn_hungarian",
+      "red": 3,
+      "behaviour": "straight",
+      "episodes": 1000,
+      "truncated": 0,
+      "survival": 0.57,
+      "survival_ci95": [
+        0.53910460324665,
+        0.6003596309512553
+      ],
+      "intercept_fraction": 0.752,
+      "intercept_fraction_ci95": [
+        0.731407482026046,
+        0.772592517973954
+      ],
+      "defender_survival": 0.4853333333333333,
+      "defender_survival_ci95": [
+        0.46707684725317244,
+        0.5035898194134941
+      ],
+      "first_intercept_s": 24.617447973713627,
+      "first_intercept_s_ci95": [
+        23.89644621576144,
+        25.338449731665815
+      ],
+      "clear_s": 60.26547368421221,
+      "clear_s_ci95": [
+        58.585150986550396,
+        61.945796381874025
+      ],
+      "episode_s": 65.49217000000208,
+      "episode_s_ci95": [
+        64.17367454640338,
+        66.81066545360078
+      ],
+      "latency_ms": {
+        "p50": 0.147643,
+        "p99": 0.34345378000000004
+      }
+    }
+  ]
+}

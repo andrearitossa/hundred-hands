@@ -1,0 +1,5 @@
+[0;93m2026-11-05 08:42:49.890140422 [W:onnxruntime:swarm, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+sparse 0.0 0.0
+shaped 0.0 0.0
+closing 0.0 0.005
+teacher 0.0 0.0

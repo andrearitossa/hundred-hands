@@ -1,0 +1,69 @@
+[
+ {
+  "behaviour": "straight",
+  "episodes": 1000,
+  "asset_hit_rate": 1.0,
+  "not_hit_seeds": [],
+  "episode_s": {
+   "min": 19.0,
+   "p50": 48.7,
+   "max": 128.6
+  },
+  "events": {
+   "spawn": 4526,
+   "asset_hit": 1000,
+   "lost": 171,
+   "intercept": 2,
+   "trial_fail": 4
+  },
+  "losses": {
+   "red:building": 171
+  },
+  "red_crashes_off_route": 0,
+  "decisions_per_s_single_thread": 5165
+ },
+ {
+  "behaviour": "waypoint",
+  "episodes": 1000,
+  "asset_hit_rate": 1.0,
+  "not_hit_seeds": [],
+  "episode_s": {
+   "min": 24.0,
+   "p50": 60.5,
+   "max": 140.8
+  },
+  "events": {
+   "spawn": 4526,
+   "asset_hit": 1000,
+   "intercept": 3,
+   "trial_fail": 1
+  },
+  "losses": {},
+  "red_crashes_off_route": 0,
+  "decisions_per_s_single_thread": 5306
+ },
+ {
+  "behaviour": "evasive",
+  "episodes": 1000,
+  "asset_hit_rate": 1.0,
+  "not_hit_seeds": [],
+  "episode_s": {
+   "min": 21.3,
+   "p50": 53.7,
+   "max": 157.7
+  },
+  "events": {
+   "spawn": 4526,
+   "asset_hit": 1000,
+   "lost": 97,
+   "jink": 605,
+   "intercept": 6,
+   "trial_fail": 3
+  },
+  "losses": {
+   "red:building": 97
+  },
+  "red_crashes_off_route": 0,
+  "decisions_per_s_single_thread": 5338
+ }
+]

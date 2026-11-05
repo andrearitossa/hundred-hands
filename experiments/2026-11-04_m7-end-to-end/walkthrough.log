@@ -1,0 +1,50 @@
+wandb: Tracking run with wandb version 0.31.0
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in experiments/2026-11-04_m7-end-to-end/train/wandb/offline-run-20261104_162411-n6rh3ujx
+wandb: View this run in the terminal with `wandb leet`
+wandb: WARNING URL not available in offline run
+wandb: 
+wandb: Run history:
+wandb:  epsilon ▁
+wandb:     loss ▁
+wandb:    stage ▁
+wandb: survival ▁
+wandb: 
+wandb: Run summary:
+wandb:  epsilon 0.05
+wandb:     loss 0.00408
+wandb:    stage 0
+wandb: survival 0
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync experiments/2026-11-04_m7-end-to-end/train/wandb/offline-run-20261104_162411-n6rh3ujx
+wandb: Find logs at: experiments/2026-11-04_m7-end-to-end/train/wandb/offline-run-20261104_162411-n6rh3ujx/logs
+[0;93m2026-11-04 16:24:36.060622056 [W:onnxruntime:swarm, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+wandb: Tracking run with wandb version 0.31.0
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in experiments/2026-11-04_m7-end-to-end/evaluation/wandb/offline-run-20261104_162440-68b4rufz
+wandb: View this run in the terminal with `wandb leet`
+wandb: WARNING URL not available in offline run
+wandb: 
+wandb: Run history:
+wandb:          gqn/survival ▁
+wandb:         idle/survival ▁
+wandb:    pn_greedy/survival ▁
+wandb: pn_hungarian/survival ▁
+wandb:    pp_greedy/survival ▁
+wandb: pp_hungarian/survival ▁
+wandb:       random/survival ▁
+wandb: 
+wandb: Run summary:
+wandb:          gqn/survival 0
+wandb:         idle/survival 0
+wandb:    pn_greedy/survival 1
+wandb: pn_hungarian/survival 1
+wandb:    pp_greedy/survival 0.66667
+wandb: pp_hungarian/survival 0.66667
+wandb:       random/survival 0
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync experiments/2026-11-04_m7-end-to-end/evaluation/wandb/offline-run-20261104_162440-68b4rufz
+wandb: Find logs at: experiments/2026-11-04_m7-end-to-end/evaluation/wandb/offline-run-20261104_162440-68b4rufz/logs
+experiments/2026-11-04_m7-end-to-end/report.md

@@ -1,0 +1,35 @@
+Running main() from /home/andrea/hundred-hands/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PrimitiveTuning.SweepOnNonManoeuvringTargets
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PrimitiveTuning
+[ RUN      ] PrimitiveTuning.SweepOnNonManoeuvringTargets
+turn_deg,speed_step,climb_step,captures,mean_episode_s
+10,1.5,1.5,0,53.19
+10,1.5,3,0,53.19
+10,3,1.5,0,53.19
+10,3,3,0,53.19
+20,1.5,1.5,0,53.19
+20,1.5,3,0,53.19
+20,3,1.5,0,53.19
+20,3,3,0,53.19
+30,1.5,1.5,2,45.72
+30,1.5,3,2,49.8233
+30,3,1.5,2,47.8433
+30,3,3,1,49.6267
+/home/andrea/hundred-hands/gnc/tests/gnc_test.cpp:216: Failure
+Expected equality of these values:
+  best
+    Which is: 2
+  3
+
+[  FAILED  ] PrimitiveTuning.SweepOnNonManoeuvringTargets (2333 ms)
+[----------] 1 test from PrimitiveTuning (2333 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2333 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] PrimitiveTuning.SweepOnNonManoeuvringTargets
+
+ 1 FAILED TEST

@@ -1,0 +1,6 @@
+{"step": null, "idle/3/straight/survival": 0.0}
+{"step": null, "random/3/straight/survival": 0.0}
+{"step": null, "pp_greedy/3/straight/survival": 0.41}
+{"step": null, "pn_greedy/3/straight/survival": 0.573}
+{"step": null, "pp_hungarian/3/straight/survival": 0.419}
+{"step": null, "pn_hungarian/3/straight/survival": 0.57}

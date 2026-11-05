@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "behaviour": "straight",
+      "episodes": 1000,
+      "failures": []
+    },
+    {
+      "behaviour": "waypoint",
+      "episodes": 1000,
+      "failures": []
+    },
+    {
+      "behaviour": "evasive",
+      "episodes": 1000,
+      "failures": []
+    }
+  ],
+  "duration_s": 152.57833400499658
+}

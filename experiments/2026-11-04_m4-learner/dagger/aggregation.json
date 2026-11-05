@@ -1,0 +1,218 @@
+[
+  {
+    "round": 1,
+    "expert_probability": 0.8333333333333334,
+    "episodes": 200,
+    "truncated": 0,
+    "survival": 0.0,
+    "survival_ci95": [
+      0,
+      0.018846005918320894
+    ],
+    "intercept_fraction": 0.003333333333333333,
+    "intercept_fraction_ci95": [
+      -0.001274808903444071,
+      0.007941475570110736
+    ],
+    "defender_survival": 0.24333333333333332,
+    "defender_survival_ci95": [
+      0.21100991051398704,
+      0.2756567561526796
+    ],
+    "first_intercept_s": 22.88000000000092,
+    "first_intercept_s_ci95": [
+      15.902400000000029,
+      29.85760000000181
+    ],
+    "clear_s": null,
+    "clear_s_ci95": null,
+    "episode_s": 52.4466500000001,
+    "episode_s_ci95": [
+      50.20627503702161,
+      54.68702496297858
+    ],
+    "latency_ms": {
+      "p50": 0.6461425000452437,
+      "p99": 2.5326988028245982
+    }
+  },
+  {
+    "round": 2,
+    "expert_probability": 0.6666666666666667,
+    "episodes": 200,
+    "truncated": 0,
+    "survival": 0.0,
+    "survival_ci95": [
+      0,
+      0.018846005918320894
+    ],
+    "intercept_fraction": 0.0,
+    "intercept_fraction_ci95": [
+      0.0,
+      0.0
+    ],
+    "defender_survival": 0.13,
+    "defender_survival_ci95": [
+      0.10347966615589692,
+      0.1565203338441031
+    ],
+    "first_intercept_s": null,
+    "first_intercept_s_ci95": null,
+    "clear_s": null,
+    "clear_s_ci95": null,
+    "episode_s": 52.4378500000001,
+    "episode_s_ci95": [
+      50.19581866961775,
+      54.67988133038244
+    ],
+    "latency_ms": {
+      "p50": 0.5781619984190911,
+      "p99": 1.3372546329628672
+    }
+  },
+  {
+    "round": 3,
+    "expert_probability": 0.5,
+    "episodes": 200,
+    "truncated": 0,
+    "survival": 0.0,
+    "survival_ci95": [
+      0,
+      0.018846005918320894
+    ],
+    "intercept_fraction": 0.0016666666666666666,
+    "intercept_fraction_ci95": [
+      -0.0016000000000000003,
+      0.004933333333333333
+    ],
+    "defender_survival": 0.20166666666666663,
+    "defender_survival_ci95": [
+      0.17241294532780155,
+      0.23092038800553172
+    ],
+    "first_intercept_s": 17.94000000000066,
+    "first_intercept_s_ci95": [
+      17.94000000000066,
+      17.94000000000066
+    ],
+    "clear_s": null,
+    "clear_s_ci95": null,
+    "episode_s": 52.69835000000012,
+    "episode_s_ci95": [
+      50.45044549681937,
+      54.94625450318087
+    ],
+    "latency_ms": {
+      "p50": 0.7265255044330843,
+      "p99": 3.870115682657342
+    }
+  },
+  {
+    "round": 4,
+    "expert_probability": 0.33333333333333337,
+    "episodes": 200,
+    "truncated": 0,
+    "survival": 0.0,
+    "survival_ci95": [
+      0,
+      0.018846005918320894
+    ],
+    "intercept_fraction": 0.0016666666666666666,
+    "intercept_fraction_ci95": [
+      -0.0016000000000000003,
+      0.004933333333333333
+    ],
+    "defender_survival": 0.2683333333333333,
+    "defender_survival_ci95": [
+      0.23108112457318364,
+      0.305585542093483
+    ],
+    "first_intercept_s": 24.100000000001792,
+    "first_intercept_s_ci95": [
+      24.100000000001792,
+      24.100000000001792
+    ],
+    "clear_s": null,
+    "clear_s_ci95": null,
+    "episode_s": 52.4378500000001,
+    "episode_s_ci95": [
+      50.19581866961775,
+      54.67988133038244
+    ],
+    "latency_ms": {
+      "p50": 0.39799233491066843,
+      "p99": 1.4113003184320405
+    }
+  },
+  {
+    "round": 5,
+    "expert_probability": 0.16666666666666663,
+    "episodes": 200,
+    "truncated": 0,
+    "survival": 0.0,
+    "survival_ci95": [
+      0,
+      0.018846005918320894
+    ],
+    "intercept_fraction": 0.0016666666666666666,
+    "intercept_fraction_ci95": [
+      -0.0016000000000000003,
+      0.004933333333333333
+    ],
+    "defender_survival": 0.26,
+    "defender_survival_ci95": [
+      0.2240778607355357,
+      0.2959221392644643
+    ],
+    "first_intercept_s": 32.69000000000177,
+    "first_intercept_s_ci95": [
+      32.69000000000177,
+      32.69000000000177
+    ],
+    "clear_s": null,
+    "clear_s_ci95": null,
+    "episode_s": 52.4378500000001,
+    "episode_s_ci95": [
+      50.19581866961775,
+      54.67988133038244
+    ],
+    "latency_ms": {
+      "p50": 0.601969994022511,
+      "p99": 1.2983582395827398
+    }
+  },
+  {
+    "round": 6,
+    "expert_probability": 0.0,
+    "episodes": 200,
+    "truncated": 0,
+    "survival": 0.0,
+    "survival_ci95": [
+      0,
+      0.018846005918320894
+    ],
+    "intercept_fraction": 0.0,
+    "intercept_fraction_ci95": [
+      0.0,
+      0.0
+    ],
+    "defender_survival": 0.09833333333333333,
+    "defender_survival_ci95": [
+      0.0752705229741452,
+      0.12139614369252145
+    ],
+    "first_intercept_s": null,
+    "first_intercept_s_ci95": null,
+    "clear_s": null,
+    "clear_s_ci95": null,
+    "episode_s": 52.4378500000001,
+    "episode_s_ci95": [
+      50.19581866961775,
+      54.67988133038244
+    ],
+    "latency_ms": {
+      "p50": 0.8543330040993169,
+      "p99": 2.155415720189921
+    }
+  }
+]

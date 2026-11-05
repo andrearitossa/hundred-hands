@@ -1,0 +1,47 @@
+env: scenarios/v0/env.yaml
+seed: 42
+steps: 8000
+envs: 8
+threads: 4
+hidden: 32
+heads: 4
+message_dim: 16
+lr: 0.0005
+gamma: 0.99
+n_step: 5
+batch: 32
+replay_capacity: 20000
+warmup: 256
+update_every: 16
+tau: 0.005
+grad_clip: 10
+epsilon_start: 1.0
+epsilon_end: 0.05
+exploration_fraction: 0.3
+checkpoint_every: 8000
+eval_every: 8000
+eval_episodes: 10
+eval_seed: 10000000
+red_count: 3
+wandb_mode: offline
+device: cpu
+shaping: 0.0
+curriculum:
+- weights:
+  - 1
+  - 0
+  - 0
+  threshold: 0.7
+  budget: 2000000
+- weights:
+  - 1
+  - 1
+  - 0
+  threshold: 0.7
+  budget: 2000000
+- weights:
+  - 1
+  - 1
+  - 1
+  threshold: 0.7
+  budget: 1000000

@@ -1,0 +1,54 @@
+{
+  "what": "env",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "measurements": [
+    {
+      "envs": 1,
+      "threads": 1,
+      "seconds": 0.05654083799163345,
+      "decisions_per_second": 3537.266285823261
+    },
+    {
+      "envs": 1,
+      "threads": 4,
+      "seconds": 0.07539890900079627,
+      "decisions_per_second": 2652.5582750525987
+    },
+    {
+      "envs": 4,
+      "threads": 1,
+      "seconds": 0.173724513995694,
+      "decisions_per_second": 4604.99201638192
+    },
+    {
+      "envs": 4,
+      "threads": 4,
+      "seconds": 0.1285062770039076,
+      "decisions_per_second": 6225.3768349049105
+    },
+    {
+      "envs": 16,
+      "threads": 1,
+      "seconds": 0.8192933999962406,
+      "decisions_per_second": 3905.8046848841736
+    },
+    {
+      "envs": 16,
+      "threads": 4,
+      "seconds": 0.4290133610047633,
+      "decisions_per_second": 7458.975152907816
+    },
+    {
+      "envs": 32,
+      "threads": 1,
+      "seconds": 1.5338824240025133,
+      "decisions_per_second": 4172.418889382563
+    },
+    {
+      "envs": 32,
+      "threads": 4,
+      "seconds": 0.6544774110079743,
+      "decisions_per_second": 9778.794336298371
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+Starting >>> core
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    FETCHCONTENT_SOURCE_DIR_ORT_BIN
+
+
+-- Build files have been written to: /tmp/hh-colcon-build/core
+[ 94%] Built target yaml-cpp
+[100%] Built target core
+-- Install configuration: "Release"
+-- Up-to-date: /tmp/hh-colcon-install/core/lib/libcore.a
+-- Up-to-date: /tmp/hh-colcon-install/core/include
+-- Up-to-date: /tmp/hh-colcon-install/core/include/core
+-- Up-to-date: /tmp/hh-colcon-install/core/include/core/types.hpp
+-- Up-to-date: /tmp/hh-colcon-install/core/include/core/config.hpp
+-- Up-to-date: /tmp/hh-colcon-install/core/include/core/velocity_control.hpp
+-- Up-to-date: /tmp/hh-colcon-install/core/share/core/package.xml
+Finished <<< core [0.22s]
+Starting >>> sim
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    FETCHCONTENT_SOURCE_DIR_ORT_BIN
+
+
+-- Build files have been written to: /tmp/hh-colcon-build/sim
+[ 86%] Built target yaml-cpp
+[ 92%] Built target core
+[100%] Built target sim
+-- Install configuration: "Release"
+-- Up-to-date: /tmp/hh-colcon-install/sim/lib/libcore.a
+-- Up-to-date: /tmp/hh-colcon-install/sim/include
+-- Up-to-date: /tmp/hh-colcon-install/sim/include/core
+-- Up-to-date: /tmp/hh-colcon-install/sim/include/core/types.hpp
+-- Up-to-date: /tmp/hh-colcon-install/sim/include/core/config.hpp
+-- Up-to-date: /tmp/hh-colcon-install/sim/include/core/velocity_control.hpp
+-- Up-to-date: /tmp/hh-colcon-install/sim/share/core/package.xml
+-- Up-to-date: /tmp/hh-colcon-install/sim/lib/libsim.a
+-- Up-to-date: /tmp/hh-colcon-install/sim/include
+-- Up-to-date: /tmp/hh-colcon-install/sim/include/sim
+-- Up-to-date: /tmp/hh-colcon-install/sim/include/sim/env.hpp
+-- Up-to-date: /tmp/hh-colcon-install/sim/share/sim/package.xml
+Finished <<< sim [0.34s]
+Starting >>> perception
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/hh-colcon-build/perception
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    FETCHCONTENT_SOURCE_DIR_ORT_BIN
+
+
+[ 82%] Built target yaml-cpp
+[ 87%] Built target core
+[ 95%] Built target sim
+[100%] Built target perception
+-- Install configuration: "Release"
+-- Up-to-date: /tmp/hh-colcon-install/perception/lib/libcore.a
+-- Up-to-date: /tmp/hh-colcon-install/perception/include
+-- Up-to-date: /tmp/hh-colcon-install/perception/include/core
+-- Up-to-date: /tmp/hh-colcon-install/perception/include/core/types.hpp
+-- Up-to-date: /tmp/hh-colcon-install/perception/include/core/config.hpp
+-- Up-to-date: /tmp/hh-colcon-install/perception/include/core/velocity_control.hpp
+-- Up-to-date: /tmp/hh-colcon-install/perception/share/core/package.xml
+-- Up-to-date: /tmp/hh-colcon-install/perception/lib/libsim.a
+-- Up-to-date: /tmp/hh-colcon-install/perception/include
+-- Up-to-date: /tmp/hh-colcon-install/perception/include/sim
+-- Up-to-date: /tmp/hh-colcon-install/perception/include/sim/env.hpp
+-- Up-to-date: /tmp/hh-colcon-install/perception/share/sim/package.xml
+-- Up-to-date: /tmp/hh-colcon-install/perception/lib/libperception.a
+-- Up-to-date: /tmp/hh-colcon-install/perception/include
+-- Up-to-date: /tmp/hh-colcon-install/perception/include/perception
+-- Up-to-date: /tmp/hh-colcon-install/perception/include/perception/obs_layout.hpp
+-- Up-to-date: /tmp/hh-colcon-install/perception/include/perception/perception.hpp
+-- Up-to-date: /tmp/hh-colcon-install/perception/share/perception/package.xml
+Finished <<< perception [0.51s]
+Starting >>> gnc
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    FETCHCONTENT_SOURCE_DIR_ORT_BIN
+
+
+-- Build files have been written to: /tmp/hh-colcon-build/gnc
+[ 75%] Built target yaml-cpp
+[ 79%] Built target core
+[ 86%] Built target sim
+[ 90%] Built target perception
+[100%] Built target gnc
+-- Install configuration: "Release"
+-- Up-to-date: /tmp/hh-colcon-install/gnc/lib/libcore.a
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include/core
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include/core/types.hpp
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include/core/config.hpp
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include/core/velocity_control.hpp
+-- Up-to-date: /tmp/hh-colcon-install/gnc/share/core/package.xml
+-- Up-to-date: /tmp/hh-colcon-install/gnc/lib/libsim.a
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include/sim
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include/sim/env.hpp
+-- Up-to-date: /tmp/hh-colcon-install/gnc/share/sim/package.xml
+-- Up-to-date: /tmp/hh-colcon-install/gnc/lib/libperception.a
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include/perception
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include/perception/obs_layout.hpp
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include/perception/perception.hpp
+-- Up-to-date: /tmp/hh-colcon-install/gnc/share/perception/package.xml
+-- Up-to-date: /tmp/hh-colcon-install/gnc/lib/libgnc.a
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include/gnc
+-- Up-to-date: /tmp/hh-colcon-install/gnc/include/gnc/gnc.hpp
+-- Up-to-date: /tmp/hh-colcon-install/gnc/share/gnc/package.xml
+Finished <<< gnc [0.65s]
+Starting >>> runtime
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  cmake_minimum_required() should be called prior to this top-level project()
+  call.  Please see the cmake-commands(7) manual for usage documentation of
+  both commands.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/hh-colcon-build/runtime
+[  2%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o
+[  4%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o
+[  6%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o
+[  8%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o
+[ 10%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o
+[ 13%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o
+[ 15%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o
+[ 17%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o
+[ 19%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o
+[ 21%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o
+[ 23%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o
+[ 26%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o
+[ 28%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/fptostring.cpp.o
+[ 30%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o
+[ 32%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o
+[ 36%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o
+[ 36%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o
+[ 39%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o
+[ 41%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o
+[ 43%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o
+[ 45%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o
+[ 47%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o
+[ 50%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o
+[ 52%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o
+[ 54%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o
+[ 56%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o
+[ 58%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o
+[ 60%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o
+[ 63%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o
+[ 65%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o
+[ 67%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o
+[ 69%] Building CXX object _deps/yaml_cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o
+[ 71%] Linking CXX static library libyaml-cpp.a
+[ 71%] Built target yaml-cpp
+[ 73%] Building CXX object swarm/core/CMakeFiles/core.dir/src/config.cpp.o
+[ 76%] Linking CXX static library libcore.a
+[ 76%] Built target core
+[ 78%] Building CXX object swarm/sim/CMakeFiles/sim.dir/src/env.cpp.o
+[ 80%] Building CXX object swarm/sim/CMakeFiles/sim.dir/src/scenario.cpp.o
+[ 82%] Linking CXX static library libsim.a
+[ 82%] Built target sim
+[ 84%] Building CXX object swarm/perception/CMakeFiles/perception.dir/src/perception.cpp.o
+[ 86%] Linking CXX static library libperception.a
+[ 86%] Built target perception
+[ 89%] Building CXX object swarm/gnc/CMakeFiles/gnc.dir/src/guidance.cpp.o
+[ 91%] Building CXX object swarm/gnc/CMakeFiles/gnc.dir/src/vec_env.cpp.o
+[ 93%] Building CXX object swarm/gnc/CMakeFiles/gnc.dir/src/team_env.cpp.o
+[ 95%] Linking CXX static library libgnc.a
+[ 95%] Built target gnc
+[ 97%] Building CXX object swarm/policy/runtime/CMakeFiles/runtime.dir/src/runtime.cpp.o
+[100%] Linking CXX static library libruntime.a
+[100%] Built target runtime
+-- Install configuration: "Release"
+-- Installing: /tmp/hh-colcon-install/runtime/lib/libcore.a
+-- Installing: /tmp/hh-colcon-install/runtime/include
+-- Installing: /tmp/hh-colcon-install/runtime/include/core
+-- Installing: /tmp/hh-colcon-install/runtime/include/core/types.hpp
+-- Installing: /tmp/hh-colcon-install/runtime/include/core/config.hpp
+-- Installing: /tmp/hh-colcon-install/runtime/include/core/velocity_control.hpp
+-- Installing: /tmp/hh-colcon-install/runtime/share/core/package.xml
+-- Installing: /tmp/hh-colcon-install/runtime/lib/libsim.a
+-- Up-to-date: /tmp/hh-colcon-install/runtime/include
+-- Installing: /tmp/hh-colcon-install/runtime/include/sim
+-- Installing: /tmp/hh-colcon-install/runtime/include/sim/env.hpp
+-- Installing: /tmp/hh-colcon-install/runtime/share/sim/package.xml
+-- Installing: /tmp/hh-colcon-install/runtime/lib/libperception.a
+-- Up-to-date: /tmp/hh-colcon-install/runtime/include
+-- Installing: /tmp/hh-colcon-install/runtime/include/perception
+-- Installing: /tmp/hh-colcon-install/runtime/include/perception/obs_layout.hpp
+-- Installing: /tmp/hh-colcon-install/runtime/include/perception/perception.hpp
+-- Installing: /tmp/hh-colcon-install/runtime/share/perception/package.xml
+-- Installing: /tmp/hh-colcon-install/runtime/lib/libgnc.a
+-- Up-to-date: /tmp/hh-colcon-install/runtime/include
+-- Installing: /tmp/hh-colcon-install/runtime/include/gnc
+-- Installing: /tmp/hh-colcon-install/runtime/include/gnc/gnc.hpp
+-- Installing: /tmp/hh-colcon-install/runtime/share/gnc/package.xml
+-- Installing: /tmp/hh-colcon-install/runtime/lib/libruntime.a
+-- Up-to-date: /tmp/hh-colcon-install/runtime/include
+-- Installing: /tmp/hh-colcon-install/runtime/include/runtime
+-- Installing: /tmp/hh-colcon-install/runtime/include/runtime/runtime.hpp
+-- Installing: /tmp/hh-colcon-install/runtime/share/runtime/package.xml
+-- Installing: /tmp/hh-colcon-install/runtime/./libonnxruntime.so.1
+Finished <<< runtime [1min 26s]

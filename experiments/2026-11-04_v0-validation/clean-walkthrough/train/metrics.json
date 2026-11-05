@@ -1,0 +1,43 @@
+{
+  "steps": 8000,
+  "updates": 485,
+  "loss_first": 0.08911091902293265,
+  "loss_last": 0.004082094896584749,
+  "duration_s": 16.64665012298792,
+  "evaluations": [
+    {
+      "steps": 8000,
+      "stage": 0,
+      "episodes": 3,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.5615060804490177
+      ],
+      "intercept_fraction": 0.0,
+      "intercept_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "defender_survival": 0.0,
+      "defender_survival_ci95": [
+        0.0,
+        0.0
+      ],
+      "first_intercept_s": null,
+      "first_intercept_s_ci95": null,
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 47.30666666666582,
+      "episode_s_ci95": [
+        39.1908280931674,
+        55.42250524016424
+      ],
+      "latency_ms": {
+        "p50": 0.4828201684479912,
+        "p99": 2.0384818510501637
+      }
+    }
+  ]
+}

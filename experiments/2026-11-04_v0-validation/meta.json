@@ -1,0 +1,32 @@
+{
+  "git_sha": "0a2819fb771031214ef63d0b07272f3aaf12841e",
+  "working_tree_dirty": true,
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "cpu_count": 4,
+  "updated_at": "2026-11-04T15:23:52.657921+00:00",
+  "scope": "validation aggregate; individual logs and clean snapshot identify executed checks",
+  "checks": {
+    "cpp_tests": {
+      "passed": 28,
+      "failed": 0
+    },
+    "python_tests": {
+      "passed": 23,
+      "failed": 0
+    },
+    "mypy": "pass",
+    "ruff": "pass",
+    "codegen": "pass",
+    "dependency_boundaries": "pass",
+    "standalone_core": "pass",
+    "colcon_packages": [
+      "core",
+      "sim",
+      "perception",
+      "gnc",
+      "runtime"
+    ],
+    "clean_source_walkthrough": "pass",
+    "M4_acceptance": "outstanding"
+  }
+}

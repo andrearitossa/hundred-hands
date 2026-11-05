@@ -1,0 +1,29 @@
+Running main() from /home/andrea/hundred-hands/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from GNC
+[ RUN      ] GNC.ControllerAndPrimitives
+[       OK ] GNC.ControllerAndPrimitives (0 ms)
+[ RUN      ] GNC.HungarianBruteForce
+[       OK ] GNC.HungarianBruteForce (0 ms)
+[ RUN      ] GNC.PNIntercept
+[       OK ] GNC.PNIntercept (0 ms)
+[----------] 3 tests from GNC (2 ms total)
+
+[----------] 3 tests from TeamEnv
+[ RUN      ] TeamEnv.RewardDeathAndReset
+[       OK ] TeamEnv.RewardDeathAndReset (4 ms)
+[ RUN      ] TeamEnv.InterceptRewardAndTerminalBonus
+[       OK ] TeamEnv.InterceptRewardAndTerminalBonus (1 ms)
+[ RUN      ] TeamEnv.FusedIdentityIsUniqueAcrossSensors
+[       OK ] TeamEnv.FusedIdentityIsUniqueAcrossSensors (1 ms)
+[----------] 3 tests from TeamEnv (7 ms total)
+
+[----------] 1 test from VecEnv
+[ RUN      ] VecEnv.SchedulingAndAutoReset
+[       OK ] VecEnv.SchedulingAndAutoReset (48 ms)
+[----------] 1 test from VecEnv (48 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 3 test suites ran. (58 ms total)
+[  PASSED  ] 7 tests.

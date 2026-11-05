@@ -1,0 +1,42 @@
+eager 0.015046162299986463
+/home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/jit/_trace.py:1006: FutureWarning: `torch.jit.trace` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/jit/_trace.py:1145: FutureWarning: `torch.jit.trace_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+         416703 function calls (377153 primitive calls) in 0.748 seconds
+
+   Ordered by: cumulative time
+   List reduced from 173 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       50    0.010    0.000    0.748    0.015 /home/andrea/hundred-hands/policy/swarm_policy/train.py:77(update)
+ 7950/150    0.008    0.000    0.292    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py:1783(_wrapped_call_impl)
+ 7950/150    0.012    0.000    0.291    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py:1791(_call_impl)
+      150    0.007    0.000    0.290    0.002 /home/andrea/hundred-hands/policy/swarm_policy/model.py:97(forward)
+      450    0.054    0.000    0.205    0.000 /home/andrea/hundred-hands/policy/swarm_policy/model.py:53(forward)
+       50    0.000    0.000    0.146    0.003 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/_tensor.py:566(backward)
+       50    0.001    0.000    0.146    0.003 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/autograd/__init__.py:255(backward)
+       50    0.001    0.000    0.144    0.003 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/autograd/graph.py:1100(_engine_run_backward)
+       50    0.142    0.003    0.142    0.003 {method 'run_backward' of 'torch._C._EngineBase' objects}
+       50    0.001    0.000    0.121    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py:546(wrapper)
+
+
+jit 0.015216199459973722
+         381003 function calls (339661 primitive calls) in 0.750 seconds
+
+   Ordered by: cumulative time
+   List reduced from 153 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      150    0.001    0.000    0.247    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py:1783(_wrapped_call_impl)
+      150    0.245    0.002    0.246    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py:1791(_call_impl)
+       50    0.000    0.000    0.170    0.003 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/_tensor.py:566(backward)
+       50    0.001    0.000    0.169    0.003 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/autograd/__init__.py:255(backward)
+       50    0.001    0.000    0.167    0.003 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/autograd/graph.py:1100(_engine_run_backward)
+       50    0.166    0.003    0.166    0.003 {method 'run_backward' of 'torch._C._EngineBase' objects}
+       50    0.001    0.000    0.115    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py:546(wrapper)
+       50    0.001    0.000    0.110    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py:59(_use_grad)
+       50    0.001    0.000    0.109    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/optim/adam.py:215(step)
+       50    0.000    0.000    0.099    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py:140(maybe_fallback)
+
+

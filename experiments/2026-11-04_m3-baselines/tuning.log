@@ -1,0 +1,25 @@
+Running main() from /home/andrea/hundred-hands/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = PrimitiveTuning.SweepOnNonManoeuvringTargets
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PrimitiveTuning
+[ RUN      ] PrimitiveTuning.SweepOnNonManoeuvringTargets
+turn_deg,speed_step,climb_step,captures,mean_episode_s
+10,1.5,1.5,3,9.16333
+10,1.5,3,3,9.16333
+10,3,1.5,3,9.14
+10,3,3,3,9.14
+20,1.5,1.5,3,8.90333
+20,1.5,3,3,8.90333
+20,3,1.5,3,8.86
+20,3,3,3,8.86
+30,1.5,1.5,3,8.88667
+30,1.5,3,3,8.89
+30,3,1.5,3,8.84333
+30,3,3,3,8.84333
+[       OK ] PrimitiveTuning.SweepOnNonManoeuvringTargets (474 ms)
+[----------] 1 test from PrimitiveTuning (474 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (474 ms total)
+[  PASSED  ] 1 test.

@@ -1,0 +1,77 @@
+{
+  "steps": 200000,
+  "updates": 12376,
+  "loss_first": 0.0835701385140419,
+  "loss_last": 0.002363605696555169,
+  "duration_s": 253.32507564300613,
+  "evaluations": [
+    {
+      "steps": 100000,
+      "stage": 0,
+      "episodes": 30,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.113517091390478
+      ],
+      "intercept_fraction": 0.0,
+      "intercept_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "defender_survival": 0.0,
+      "defender_survival_ci95": [
+        0.0,
+        0.0
+      ],
+      "first_intercept_s": null,
+      "first_intercept_s_ci95": null,
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 51.99999999999946,
+      "episode_s_ci95": [
+        47.06776530718389,
+        56.93223469281503
+      ],
+      "latency_ms": {
+        "p50": 0.5664460040861741,
+        "p99": 1.3826786435674856
+      }
+    },
+    {
+      "steps": 200000,
+      "stage": 0,
+      "episodes": 30,
+      "truncated": 0,
+      "survival": 0.0,
+      "survival_ci95": [
+        0,
+        0.113517091390478
+      ],
+      "intercept_fraction": 0.0,
+      "intercept_fraction_ci95": [
+        0.0,
+        0.0
+      ],
+      "defender_survival": 0.02222222222222222,
+      "defender_survival_ci95": [
+        -0.008040540760180362,
+        0.0524849852046248
+      ],
+      "first_intercept_s": null,
+      "first_intercept_s_ci95": null,
+      "clear_s": null,
+      "clear_s_ci95": null,
+      "episode_s": 51.99999999999946,
+      "episode_s_ci95": [
+        47.06776530718389,
+        56.93223469281503
+      ],
+      "latency_ms": {
+        "p50": 0.36159000107242417,
+        "p99": 2.8343759059983333
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+compile 0.016697662599908653
+         451453 function calls (419103 primitive calls) in 0.829 seconds
+
+   Ordered by: cumulative time
+   List reduced from 316 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       50    0.014    0.000    0.831    0.017 /home/andrea/hundred-hands/policy/swarm_policy/train.py:77(update)
+      750    0.003    0.000    0.361    0.000 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py:1527(_fn)
+      200    0.006    0.000    0.308    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/_inductor/output_code.py:787(__call__)
+      150    0.002    0.000    0.275    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py:551(__call__)
+  300/150    0.001    0.000    0.270    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py:1783(_wrapped_call_impl)
+  300/150    0.021    0.000    0.269    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py:1791(_call_impl)
+      150    0.005    0.000    0.268    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py:1150(compile_wrapper)
+      150    0.001    0.000    0.225    0.002 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/_functorch/aot_autograd.py:1281(forward)
+      150    0.001    0.000    0.224    0.001 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py:1192(runtime_wrapper)
+      150    0.001    0.000    0.222    0.001 /home/andrea/hundred-hands/.venv/lib/python3.12/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py:2609(__call__)
+
+
